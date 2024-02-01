@@ -1,9 +1,10 @@
 project:
   type: book
-
+  output-dir: docs
+  
 book:
-  title: "Burhan"
-  author: "Norah Jones"
+  title: "Welcome to Remote Sensing"
+  author: "Burhan Ahmad Wani"
   date: "2/1/2024"
   chapters:
     - index.qmd
