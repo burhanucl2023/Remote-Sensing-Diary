@@ -14,12 +14,11 @@
             },
             "author": [
                 {
-                    "family": "Earth Science Data Systems",
                     "given": "NASA"
                 }
             ],
             "genre": "Backgrounder",
-            "id": "earthsciencedatasystems2019",
+            "id": "2019",
             "issued": {
                 "date-parts": [
                     [

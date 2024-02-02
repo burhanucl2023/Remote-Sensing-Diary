@@ -25,6 +25,20 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "NASA. 2019. “What Is Remote Sensing? |\nEarthdata.” Backgrounder. Earth Science Data\nSystems, NASA. August 23, 2019. https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing."
+  },
+  {
+    "objectID": "week_1.html",
+    "href": "week_1.html",
+    "title": "1  Week 1 - Basics",
+    "section": "",
+    "text": "2 Summary"
+  },
+  {
+    "objectID": "week_1.html#what-is-remote-sensing-you-ask",
+    "href": "week_1.html#what-is-remote-sensing-you-ask",
+    "title": "1  Week 1 - Basics",
+    "section": "2.1 What is Remote Sensing, you ask?",
+    "text": "2.1 What is Remote Sensing, you ask?\nRemote sensing is like Earth’s Personal Observer, capturing information from afar. NASA defines Remote Sensing as acquiring information from a distance  (2019) .This is achieved through sensors mounted on satellites, planes, drones, etc.\n\n\n\n\nNASA. 2019. “What Is Remote Sensing? | Earthdata.” Backgrounder. Earth Science Data Systems, NASA. August 23, 2019. https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing."
   }
 ]
