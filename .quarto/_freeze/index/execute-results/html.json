@@ -1,7 +1,7 @@
 {
-  "hash": "f89d2cae73031aafc1d0dc4ae48f295e",
+  "hash": "b452182a4732f6d5f640796049901710",
   "result": {
-    "markdown": "# Preface {.unnumbered}\n\nThis is a Quarto book.\n\nTo learn more about Quarto books visit <https://quarto.org/docs/books>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "markdown": "# Introduction {.unnumbered}\n\nI am [Burhan](https://www.linkedin.com/in/burhanahmadwani/). Born and brought up in the beautiful valley of Kashmir. Yeah, we are famous for Shawls, Beautiful Valleys, Lakes & our local food. Here is a [Photo Gallery](https://stock.adobe.com/uk/search?k=kashmir)\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

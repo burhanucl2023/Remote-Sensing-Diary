@@ -1,8 +1,6 @@
-# Preface {.unnumbered}
+# Introduction {.unnumbered}
 
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+I am [Burhan](https://www.linkedin.com/in/burhanahmadwani/). Born and brought up in the beautiful valley of Kashmir. Yeah, we are famous for Shawls, Beautiful Valleys, Lakes & our local food. Here is a [Photo Gallery](https://stock.adobe.com/uk/search?k=kashmir)
 
 ```{r}
 1 + 1
