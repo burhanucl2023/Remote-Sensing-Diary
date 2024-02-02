@@ -1,0 +1,18 @@
+/* styles.css */
+.figure-with-border {
+  border: 10px solid #18ccdf;
+  padding: 10px;
+}
+
+body {
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
+}
+
+figure {
+  text-align: center;
+  margin: auto;
+}

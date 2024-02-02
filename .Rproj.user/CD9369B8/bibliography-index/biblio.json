@@ -27,6 +27,39 @@
             "title": "Literate programming",
             "type": "article-journal",
             "volume": "27"
+        },
+        {
+            "URL": "https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing",
+            "abstract": "Tutorial on remotely-sensed data, from sensor characteristics, to different types of resolution, to data processing and analysis.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        2
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Earth Science Data Systems",
+                    "given": "NASA"
+                }
+            ],
+            "genre": "Backgrounder",
+            "id": "earth_science_data_systems_what_2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        8
+                    ]
+                ]
+            },
+            "note": "Publisher: Earth Science Data Systems, NASA",
+            "title": "What is Remote Sensing?  Earthdata",
+            "title-short": "What is Remote Sensing?",
+            "type": ""
         }
     ],
     "project_biblios": [
