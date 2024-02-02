@@ -8,3 +8,4 @@ author: "Burhan Ahmad Wani"
 ## What is Remote Sensing, you ask?
 
 Remote sensing is like Earth's Personal Observer, capturing information from afar. NASA defines Remote Sensing as acquiring information from a distance @earthsciencedatasystems2019 .This is achieved through sensors mounted on satellites, planes, drones, etc.
+
