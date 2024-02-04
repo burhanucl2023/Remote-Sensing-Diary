@@ -6,10 +6,8 @@ Yeah, we are famous for **Beautiful Valleys, Mesmerizing Lakes, Cashmere Shawls 
 
 I am a Passionate Urban Spatial Enthusiast pursuing postgraduate studies at **University College London (UCL)**, blending expertise in Urban Spatial Sciences and Civil Engineering.
 
-I have held mid-level management positions in both government and the public sector, specializing in the strategic development of road networks for underserved areas in India. Beyond that, I've played a pivotal role in contributing to the dynamic landscape of the Oil & Energy Sector in India.
-My mojo revolves around crafting the future of transportation design, playing with spatial analytics, rocking disaster management scenarios, championing net-zero strategies, and setting the stage for cool public policies.
-Committed to driving positive change, seeking collaboration with like-minded professionals to shape a more sustainable future for cities and regions.
-
+I have held mid-level management positions in both government and the public sector, specializing in the strategic development of road networks for underserved areas in India. Beyond that, I've played a pivotal role in contributing to the dynamic landscape of the Oil & Energy Sector in India. My mojo revolves around crafting the future of transportation design, playing with spatial analytics, rocking disaster management scenarios, championing net-zero strategies, and setting the stage for cool public policies. Committed to driving positive change, seeking collaboration with like-minded professionals to shape a more sustainable future for cities and regions.
 
 <figure align="center" class="figure-with-border" style="margin: 0;">
-![](general_images/personal_ucl.png){width="720" height="450"}
+
+![](general_images/personal_ucl.png){width="100%" height="100%"}

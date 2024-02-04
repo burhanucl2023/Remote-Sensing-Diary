@@ -1,6 +1,37 @@
 {
     "sources": [
         {
+            "ISBN": "0-471-47569-6",
+            "abstract": "This chapter contains sections titled: Types and Classes of Remote Sensing Data Brief History of Remote Sensing Remote Sensing Space Platforms Transmission Through the Earth and Planetary Atmospheres References and Further Reading",
+            "author": [
+                {
+                    "family": "Elachi",
+                    "given": "Charles"
+                },
+                {
+                    "family": "Zyl",
+                    "non-dropping-particle": "van",
+                    "suffix": "Jakob J"
+                }
+            ],
+            "container-title": "Introduction to the physics and techniques of remote sensing",
+            "id": "cdi_wiley_ebooks_10_1002_0471783390_ch1_ch1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006
+                    ]
+                ]
+            },
+            "keyword": "Remote sensing",
+            "language": "en-US",
+            "page": "1-21",
+            "publisher": "John Wiley & Sons, Inc",
+            "publisher-place": "Hoboken, NJ, USA",
+            "title": "Introduction to the Physics and Techniques of Remote Sensing",
+            "type": "chapter"
+        },
+        {
             "URL": "https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing",
             "abstract": "Tutorial on remotely-sensed data, from sensor characteristics, to different types of resolution, to data processing and analysis.",
             "accessed": {
@@ -14,11 +45,11 @@
             },
             "author": [
                 {
-                    "given": "NASA"
+                    "family": "Earthdata-Website"
                 }
             ],
             "genre": "Backgrounder",
-            "id": "2019",
+            "id": "earthdata-website2019",
             "issued": {
                 "date-parts": [
                     [
@@ -32,6 +63,43 @@
             "publisher": "Earth Science Data Systems, NASA",
             "title": "What is Remote Sensing? | Earthdata",
             "title-short": "What is Remote Sensing?",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGluYmJwb2YxY2NzYmt5YzB4Mm9uMWswY3VnMmExYnlkODdqYjRyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohc0PkM8mVYfmBHz2/giphy.gif",
+            "abstract": "Explore the universe and discover our home planet through GIFs on the official NASA account",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        4
+                    ]
+                ]
+            },
+            "director": [
+                {
+                    "family": "GIPHY"
+                }
+            ],
+            "id": "giphy",
+            "language": "en-US",
+            "title": "Space Satellite GIF by NASA - Find & Share on GIPHY",
+            "type": "motion_picture"
+        },
+        {
+            "URL": "https://reefresilience.org/management-strategies/remote-sensing-and-mapping/introduction-to-remote-sensing/what-is-remote-sensing/",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        4
+                    ]
+                ]
+            },
+            "id": "zotero-104",
+            "title": "The Nature Conservancy",
             "type": "webpage"
         }
     ],
