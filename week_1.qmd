@@ -22,3 +22,11 @@ Remote sensing employs two main types of sensors: Passive and Active.
 The choice between passive and active sensors depends on the specific environmental conditions and the type of data required for remote sensing applications. A basic difference of the two is shown in the below image explicitly
 
 ![Difference between passive and active sensors for remote sensing. Image © @zotero-104 ](images/sensors.jpg){width="100%" height="100%"}
+
+## Electromagnetic Spectrum ?
+
+Remote sensing is based on the principle that there is always an interaction between electromagnetic radiation and an object.Electromagnetic waves travel through the air and space, each with different wavelengths and frequencies. Some waves, like radio and infrared, have long wavelengths, while others, such as ultraviolet and x-rays, have short wavelength. Human eyes can only see a small part called visible light.
+
+Different types of radiation operate in various parts of the electromagnetic spectrum. Sensors can read different wavelengths, thus providing diverse information. Earth's atmosphere blocks most wavelengths, allowing only radio waves, visible light, and some infrared. Instruments, like passive sensors in the optical window and active sensors using radio waves, help us understand our surroundings.
+
+![Electromagnetic Spectrum, Source @earthdata-website2019 ](images/EMS-Introduction.jpeg){width="100%" height="100%"}
