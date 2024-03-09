@@ -61,5 +61,19 @@
     "title": "1  Week 1 - Basics",
     "section": "2.4 Resolutions",
     "text": "2.4 Resolutions\nRemote sensing data encompasses four key resolutions:\n\nSpectral Resolution: It refers to the size of each raster cell or pixel, dictating the level of detail captured.\nSpatial Resolution: It defines defines the sensor’s capability to differentiate wavelengths, determining the number of bands recorded, with multispectral sensors typically capturing 3-15 bands and hyperspectral sensors capable of thousands.\nTemporal Resolution:It indicates the frequency at which an area is revisited, influencing the timeliness of data acquisition.\nRadiometric Resolution: It quantifies the information contained within each raster cell, with higher resolutions yielding greater sensitivity to variations.\n\n\n\n\nDiagram showing different Resolutions, Source Darbari and Kumar (2022)"
+  },
+  {
+    "objectID": "week_3.html",
+    "href": "week_3.html",
+    "title": "2  Week 3 - Corrections",
+    "section": "",
+    "text": "3 Summary"
+  },
+  {
+    "objectID": "week_3.html#corrections",
+    "href": "week_3.html#corrections",
+    "title": "2  Week 3 - Corrections",
+    "section": "3.1 Corrections",
+    "text": "3.1 Corrections\nRemotely sensed data requires corrections to remove flaws which may be due to various factors like - atmosphere, sensor sensitivity, illumination conditions, distortions due to viewing angle,topographic conditions,etc.\n- Atmospheric Correction: It removes flaws caused in the remotely sensed data due to atmosphere.The atmosphere affects the incoming sunlight thereby leading to reflection, scattering and absorption of various parts of electromagnetic spectrum. Atmospheric correction is either relative or absolute. Relative atmospheric correction adjusts the data based on radiance values of target area with respect to neighboring area, while as, in absolute atmospheric correction we convert digital brightness values into scaled surface reflectance. This allows us to directly compare these scaled surface reflectance values across different regions of the planet, facilitating accurate analysis and interpretation of Earth’s surface characteristics and changes over time.\n- Geometric Correction: Geometric correction involves adjusting remotely sensed data to account for image distortions introduced by various factors such as the view angle (off-nadir), topography (e.g., non-flat terrain), wind (in aerial acquisitions), and the rotation of the Earth (in satellite imagery). This correction ensures that the satellite image aligns accurately with a coordinate reference system.\n- Topographic Correction: It deals with the effect of terrain variations on reflectance values.It requires sensor geometry and elevation data. After incorporating it, the accuracy and consistency of remote sensing data improves across different terrain conditions.\n- Radiometric Correction: This correction accounts for sensor-related factors such as variations in sensor sensitivity, illumination conditions, and atmospheric effects, ensuring that the resulting data accurately represents the physical properties of the observed features."
   }
 ]
