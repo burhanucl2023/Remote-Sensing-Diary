@@ -1,7 +1,7 @@
 project:
   type: book
   output-dir: docs
-  
+
 book:
   title: "Welcome to Remote Sensing"
   author: "Burhan Ahmad Wani"
@@ -14,10 +14,12 @@ book:
 
 bibliography: references.bib
 
-format: html
-theme: cosmo
-css: styles.css
-documentclass: scrreprt
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+  pdf:
+    documentclass: scrreprt
+  
 
 editor: visual
-
