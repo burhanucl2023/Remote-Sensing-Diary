@@ -7,21 +7,21 @@ author: "Burhan Ahmad Wani"
 
 ## What is Remote Sensing, you ask?
 
-Remote sensing is like Earth's Personal Observer, capturing information from afar. NASA defines Remote Sensing as acquiring information from a distance -  @earthdata-website2019 . Also, @cdi_wiley_ebooks_10_1002_0471783390_ch1_ch1 define remote sensing as "the acquisition of information about an object without being in physical contact with it”. All this is achieved through sensors mounted on satellites, planes, drones, etc.
+Remote sensing is like Earth's Personal Observer, capturing information from afar. NASA defines Remote Sensing as acquiring information from a distance - @earthdata-website2019 . Also, @cdi_wiley_ebooks_10_1002_0471783390_ch1_ch1 define remote sensing as "the acquisition of information about an object without being in physical contact with it". All this is achieved through sensors mounted on satellites, planes, drones, etc.
 
 ![Space Satellite GIF by NASA - @giphy](images/giphy.gif){width="100%" height="100%"}
 
 ## Types of Sensors ?
 
-Remote sensing employs two main types of sensors: Passive and Active. 
+Remote sensing employs two main types of sensors: Passive and Active.
 
-**Passive sensors** rely on sunlight reflected off the Earth's surface. However, they are susceptible to interference from elements like clouds and atmospheric haze. 
+**Passive sensors** rely on sunlight reflected off the Earth's surface. However, they are susceptible to interference from elements like clouds and atmospheric haze.
 
-**Active sensors**, on the other hand, emit signals directed towards the Earth, which bounce back to the satellite sensor. This allows active sensors to operate effectively at night and even penetrate through cloud cover, enhancing their versatility. 
+**Active sensors**, on the other hand, emit signals directed towards the Earth, which bounce back to the satellite sensor. This allows active sensors to operate effectively at night and even penetrate through cloud cover, enhancing their versatility.
 
 The choice between passive and active sensors depends on the specific environmental conditions and the type of data required for remote sensing applications. A basic difference of the two is shown in the below image explicitly
 
-![Difference between passive and active sensors for remote sensing. Image © @zotero-104 ](images/sensors.jpg){width="100%" height="100%"}
+![Difference between passive and active sensors for remote sensing. Image © @zotero-104](images/sensors.jpg){width="100%" height="100%"}
 
 ## Electromagnetic Spectrum ?
 
@@ -29,4 +29,34 @@ Remote sensing is based on the principle that there is always an interaction bet
 
 Different types of radiation operate in various parts of the electromagnetic spectrum. Sensors can read different wavelengths, thus providing diverse information. Earth's atmosphere blocks most wavelengths, allowing only radio waves, visible light, and some infrared. Instruments, like passive sensors in the optical window and active sensors using radio waves, help us understand our surroundings.
 
-![Electromagnetic Spectrum, Source @earthdata-website2019 ](images/EMS-Introduction.jpeg){width="100%" height="100%"}
+![Electromagnetic Spectrum, Source @earthdata-website2019](images/EMS-Introduction.jpeg){width="100%" height="100%"}
+
+## Resolutions
+
+Remote sensing data encompasses four key resolutions:
+
+-   Spectral Resolution: It refers to the size of each raster cell or pixel, dictating the level of detail captured.
+
+-   Spatial Resolution: It defines defines the sensor's capability to differentiate wavelengths, determining the number of bands recorded, with multispectral sensors typically capturing 3-15 bands and hyperspectral sensors capable of thousands.
+
+-   Temporal Resolution:It indicates the frequency at which an area is revisited, influencing the timeliness of data acquisition.
+
+-   Radiometric Resolution: It quantifies the information contained within each raster cell, with higher resolutions yielding greater sensitivity to variations.
+
+![Diagram showing different Resolutions, Source @darbari2022](images/resolutions.png){width="100%" height="100%"}
+
+# Applications
+
+Remote sensing data finds numerous applications across diverse fields. It is used in agriculture for optimizing uses of fertilizers, prediction of crop yields,measuring soil moisture content, monitoring droughts, assessment of crop health, etc.
+
+![A split view comparing NDVI index values on the same field taken 5 days apart. Such a tremendous decrease in NDVI may be the result of water or heat stress, which can be tracked in EOSDA Crop Monitoring., Source](images/agriculture.jpg){width="100%" height="100%"}
+
+Similarly, in forestry it can be used for monitoring forest cover, tracking deforestation & controlling forest fires.Also, remote sensing is being used for checking the rapid urbanization, planning road networks, pre and post disaster preparedness & in many more fields.
+
+![Forest fire damage assessment in the Chillan region of Chile using remote sensing data and EOSDA LandViewer capabilities., Source @2023](images/forest.gif){width="100%" height="100%"}
+
+Also, during my research regarding the use of remote sensing, I came across one of the works which discussed the application of remote sensing in route planning for road projects in challenging terrain (@mishra2015). This study delved into the effectiveness of remote sensing and Geographic Information Systems (GIS) in mapping road infrastructure in rugged landscapes. Various factors influencing road network construction and the resolution of associated challenges were examined within a specific context. Criteria encompassing major and subsidiary factors were assessed to select an appropriate model for comparing attributes and grading them based on their significance. All these examples together demonstrate how valuable remote sensing technology is across a wide range of fields.
+
+# Reflections
+
+Transitioning from a Civil Engineering background to the realm of spatial science, particularly remote sensing, has been a thrilling journey. One notable application that resonates with me, especially concerning India, is the utilization of remote sensing for identifying "Unconnected Habitations." These are isolated dwellings or small clusters of houses situated in regions lacking road access, electricity, and water supply. Typically nestled in mountainous terrains, these areas are predominantly inhabited by tribal communities. So, by leveraging remote sensing technology we could identify these remote settlements, facilitating the formulation of targeted policies aimed at fostering development within these underserved regions.

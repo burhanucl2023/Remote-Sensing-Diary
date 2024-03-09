@@ -1,0 +1,24 @@
+---
+title: "Week 3 - Corrections"
+author: "Burhan Ahmad Wani"
+---
+
+# Summary
+
+## Corrections
+Remotely sensed data requires corrections to remove flaws which may be due to various factors like - atmosphere, sensor sensitivity, illumination conditions, distortions due to viewing angle,topographic conditions,etc.
+
+**- Atmospheric Correction:**
+It removes flaws caused in the remotely sensed data due to atmosphere.The atmosphere affects the incoming sunlight thereby leading to reflection, scattering and absorption of various parts of electromagnetic spectrum.
+Atmospheric correction is either relative or absolute. Relative atmospheric correction adjusts the data based on radiance values of target area with respect to neighboring area, while as, in absolute atmospheric correction  we convert digital brightness values into scaled surface reflectance. This allows us to directly compare these scaled surface reflectance values across different regions of the planet, facilitating accurate analysis and interpretation of Earth's surface characteristics and changes over time.
+
+**- Geometric Correction:**
+Geometric correction involves adjusting remotely sensed data to account for image distortions introduced by various factors such as the view angle (off-nadir), topography (e.g., non-flat terrain), wind (in aerial acquisitions), and the rotation of the Earth (in satellite imagery). This correction ensures that the satellite image aligns accurately with a coordinate reference system.
+
+**- Topographic Correction:**
+It deals with the effect of terrain variations on reflectance values.It requires sensor geometry and elevation data. After incorporating it, the accuracy and consistency of remote sensing data improves across different terrain conditions.
+
+**- Radiometric Correction:**
+This correction accounts for sensor-related factors such as variations in sensor sensitivity, illumination conditions, and atmospheric effects, ensuring that the resulting data accurately represents the physical properties of the observed features.
+
+# Applications

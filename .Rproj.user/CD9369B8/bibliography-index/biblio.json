@@ -1,6 +1,33 @@
 {
     "sources": [
         {
+            "URL": "https://eos.com/blog/remote-sensing/",
+            "abstract": "Remote sensing has various uses in fields like agriculture, forestry, and urban planning since it allows for fast data collection over large areas.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        1
+                    ]
+                ]
+            },
+            "id": "2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        4,
+                        7
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "title": "Remote Sensing By Satellite: Physical Basis, Principles, & Uses",
+            "title-short": "Remote Sensing By Satellite",
+            "type": "webpage"
+        },
+        {
             "ISBN": "0-471-47569-6",
             "abstract": "This chapter contains sections titled: Types and Classes of Remote Sensing Data Brief History of Remote Sensing Remote Sensing Space Platforms Transmission Through the Earth and Planetary Atmospheres References and Further Reading",
             "author": [
@@ -30,6 +57,57 @@
             "publisher-place": "Hoboken, NJ, USA",
             "title": "Introduction to the Physics and Techniques of Remote Sensing",
             "type": "chapter"
+        },
+        {
+            "DOI": "10.1007/978-981-19-0976-4_36",
+            "ISBN": "978-981-19097-6-4",
+            "abstract": "Satellite images are useful in various domain areas. In satellite images resolution is the major challenging issue because of huge distance, atmospheric changes, clouds, different air devices (drones, aeroplanes). Image enhancement is a technique of image processing for better image visualization, noise removing, other air facts. Image enhancement is applied after image acquisition using different sensors. In this paper, an introduction about satellite image acquisition, image enhancement techniques, survey of different techniques of satellite image enhancement is discussed with their advantages and disadvantages.",
+            "author": [
+                {
+                    "family": "Darbari",
+                    "given": "Priyanka"
+                },
+                {
+                    "family": "Kumar",
+                    "given": "Manoj"
+                }
+            ],
+            "collection-title": "Lecture Notes in Networks and Systems",
+            "container-title": "Proceedings of International Conference on Communication and Artificial Intelligence",
+            "editor": [
+                {
+                    "family": "Goyal",
+                    "given": "Vishal"
+                },
+                {
+                    "family": "Gupta",
+                    "given": "Manish"
+                },
+                {
+                    "family": "Mirjalili",
+                    "given": "Seyedali"
+                },
+                {
+                    "family": "Trivedi",
+                    "given": "Aditya"
+                }
+            ],
+            "id": "darbari2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "keyword": "Image enhancement,Image fusion,Satellite image acquisition,Satellite image enhancement",
+            "language": "en-US",
+            "page": "431-447",
+            "publisher": "Springer Nature",
+            "publisher-place": "Singapore",
+            "title": "Satellite Image Enhancement Techniques: A Comprehensive Review",
+            "title-short": "Satellite Image Enhancement Techniques",
+            "type": "paper-conference"
         },
         {
             "URL": "https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing",
@@ -66,6 +144,26 @@
             "type": "webpage"
         },
         {
+            "URL": "https://www.nature.com/articles/nclimate3301",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        6
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Estrada"
+                }
+            ],
+            "id": "estrada",
+            "title": "A global economic assessment of city policies to reduce climate change impacts | Nature Climate Change",
+            "type": "webpage"
+        },
+        {
             "URL": "https://giphy.com/gifs/nasa-space-nasagif-3ohc0PkM8mVYfmBHz2",
             "abstract": "Explore the universe and discover our home planet through GIFs on the official NASA account",
             "accessed": {
@@ -88,6 +186,78 @@
             "type": "motion_picture"
         },
         {
+            "author": [
+                {
+                    "family": "Matin",
+                    "given": "Shafique"
+                },
+                {
+                    "family": "Behera",
+                    "given": "Mukunda"
+                },
+                {
+                    "family": "Mohapatra",
+                    "given": "Surya"
+                }
+            ],
+            "container-title": "Journal of environmental research and development",
+            "container-title-short": "Journal of environmental research and development",
+            "id": "matin2012",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "title": "Criteria-based approach to suggest alternative road network in part of Ladakh province through object based modelling: A GIS & remote sensing method.",
+            "title-short": "Criteria-based approach to suggest alternative road network in part of Ladakh province through object based modelling",
+            "type": "article-journal",
+            "volume": "7"
+        },
+        {
+            "DOI": "10.1007/s11069-015-1768-9",
+            "ISSN": "1573-0840",
+            "URL": "https://doi.org/10.1007/s11069-015-1768-9",
+            "abstract": "During the first week of September 2014, the Jammu and Kashmir region witnessed devastating floods across the majority of its districts, caused by multi-day heavy rainfall events. According to data provided by the Home Ministry of India, several thousand villages across the state were hit and 390 villages completely submerged. The preliminary assessment of property damage was estimated between INR 50,000 million to INR 60,000 million. Approximately 277 people died. In this study, an effort was made to analyze the heavy rainfall events over Jammu and Kashmir using hourly data at the fine spatial scale from satellite remote sensing. Data over Jammu and Kashmir reveal strong diurnal variation in rainfall over the severely affected districts. Most of these districts experienced continuous frequent heavy rainfall rates in the range of 15–22 mm/h during the first week of September 2014. The results show that the cumulative rainfall during 2–6 September 2014 may have contributed to the flood events.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        1
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Mishra",
+                    "given": "Anoop Kumar"
+                }
+            ],
+            "container-title": "Natural Hazards",
+            "container-title-short": "Nat Hazards",
+            "id": "mishra2015",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        9,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Convection,Flood,Radar,Remote sensing",
+            "language": "en-US",
+            "page": "1463-1467",
+            "title": "A study on the occurrence of flood events over Jammu and Kashmir during September 2014 using satellite remote sensing",
+            "type": "article-journal",
+            "volume": "78"
+        },
+        {
             "URL": "https://reefresilience.org/management-strategies/remote-sensing-and-mapping/introduction-to-remote-sensing/what-is-remote-sensing/",
             "accessed": {
                 "date-parts": [
@@ -100,6 +270,86 @@
             },
             "id": "zotero-104",
             "title": "The Nature Conservancy",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2024-03-03",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            "annote": "Shrinking Lake Chad",
+            "id": "zotero-124",
+            "title": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2024-03-03",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2024-02-22",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            "annote": "Fire in Amazon",
+            "id": "zotero-126",
+            "title": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2024-02-22",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2024-03-01",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        5
+                    ]
+                ]
+            },
+            "annote": "Winds Mediterranean Sea",
+            "id": "zotero-128",
+            "title": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2024-03-01",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2024-02-27",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        5
+                    ]
+                ]
+            },
+            "annote": "Drought Mexico",
+            "id": "zotero-130",
+            "title": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2024-02-27",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2024-02-24",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        5
+                    ]
+                ]
+            },
+            "annote": "Tropical Cyclone -Cloud",
+            "id": "zotero-132",
+            "title": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2024-02-24",
             "type": "webpage"
         }
     ],

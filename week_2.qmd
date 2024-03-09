@@ -1,0 +1,6 @@
+---
+title: "Week 2 - Sensor Presentation"
+author: "Burhan Ahmad Wani"
+---
+
+Here is a short presentation discussing the Sensor:
