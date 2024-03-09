@@ -14,12 +14,10 @@ book:
 
 bibliography: references.bib
 
-format:
-  html:
-    theme: cosmo
-    css: styles.css
-  pdf:
-    documentclass: scrreprt
+format: html
+theme: cosmo
+css: styles.css
+documentclass: scrreprt
 
 editor: visual
 
