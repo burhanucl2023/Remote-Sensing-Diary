@@ -22,3 +22,21 @@ It deals with the effect of terrain variations on reflectance values.It requires
 This correction accounts for sensor-related factors such as variations in sensor sensitivity, illumination conditions, and atmospheric effects, ensuring that the resulting data accurately represents the physical properties of the observed features.
 
 # Applications
+This week's session focused on rectifying raw satellite images, merging them, and enhancing their quality, particularly delving into the significance of atmospheric corrections in satellite image studies. It's crucial to recognize that satellite images often suffer from distortions due to various factors which were discussed above, and these can compromise the accuracy of our analysis. To mitigate these distortions, the corrections are routinely applied as a prerequisite before conducting analysis. These corrections ensure that the images are properly aligned and scaled, laying a reliable groundwork for subsequent interpretation and extraction of meaningful data.
+
+I stumbled upon a research paper by @hassan2006b, where they delve into examining how changes in the number of Ground Control Points (GCPs) and the degree of mapping polynomials affect the accuracy of the geometric correction process. They utilized the Root Mean Square Error (RMS) at the chosen GCPs to gauge the accuracy of their findings. The study revealed that employing a higher degree of polynomial rectification alongside an increased number of GCPs resulted in elevated RMS errors.
+
+![a & b – Shows the raw image2 and its corresponding reference image, c & d – 4 GCPs distribution on raw image2 and its reference, e & f – corrected image2, and its reference,Source:@hassan2006b](images/geom_correction_4_GCP.JPG){width="100%" height="100%"}
+
+Similarly, the same image was corrected by using 16 Ground Control Points as shown below.
+
+![a & b – shows the raw image2 and its corresponding reference image, c & d – 16 GCPs distribution on raw image2 and its reference, e & f – corrected image2, and its reference, Source @hassan2006b ](images/geom_correction_16_GCP.JPG){width="100%" height="100%"}
+
+The study revealed that employing a higher degree of polynomial rectification alongside an increased number of GCPs resulted in elevated RMS errors.The results of the study with respect to GCP, RMS is shown below.
+
+![Average of RMS error of all test images at each order of polynomials, Source @hassan2006b ](images/rms_week_3.png){width="100%" height="100%"}
+
+# Reflections
+
+As I joined the Term quite late, so had to catch up with all in a short amount of time. But, as the lectures and the practical notebooks were crafted perfectly, so I was able to grasp most of the concepts. 
+Regarding, this week, I understand the importance of covering corrections, despite their initial complexity, to ensure data quality and facilitate comparison between different images. Exploring how remotely sensed images can be manipulated reveals deeper layers of information beyond the surface data. Although I didn't do the practical exercises this week, but I have gone through the code and have also checked the @ahmad as recommended & I found it valuable and I anticipate revisiting it in future.

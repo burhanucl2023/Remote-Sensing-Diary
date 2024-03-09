@@ -28,6 +28,27 @@
             "type": "webpage"
         },
         {
+            "URL": "https://zia207.github.io/geospatial-r-github.io/index.html",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        9
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Ahmad",
+                    "given": "Dr. Zia"
+                }
+            ],
+            "id": "ahmad",
+            "title": "Geospatial Data Science in R",
+            "type": "webpage"
+        },
+        {
             "ISBN": "0-471-47569-6",
             "abstract": "This chapter contains sections titled: Types and Classes of Remote Sensing Data Brief History of Remote Sensing Remote Sensing Space Platforms Transmission Through the Earth and Planetary Atmospheres References and Further Reading",
             "author": [
@@ -184,6 +205,57 @@
             "language": "en-US",
             "title": "Space Satellite GIF by NASA - Find & Share on GIPHY",
             "type": "motion_picture"
+        },
+        {
+            "DOI": "10.21608/iceeng.2006.33672",
+            "ISSN": "2636-4441",
+            "URL": "http://iceeng.journals.ekb.eg/article_33672.html",
+            "abstract": "All remote sensing imagery, from satellites, is inherently subjected to geometric distortions. Therefore geometric corrections, as preprocessing operations, are normally required prior to imagery analysis and extraction of information.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        9
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Hassan",
+                    "given": "Fawzy"
+                },
+                {
+                    "family": "Salama",
+                    "given": "Gouda"
+                },
+                {
+                    "family": "Hamza",
+                    "given": "Esam"
+                },
+                {
+                    "family": "Hussien",
+                    "given": "H."
+                }
+            ],
+            "container-title": "The International Conference on Electrical Engineering",
+            "container-title-short": "The International Conference on Electrical Engineering",
+            "id": "hassan2006b",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006,
+                        5,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "1-22",
+            "title": "GEOMETRIC CORRECTION OF REMOTE SENSING SATELLITE DIGITAL IMAGES USING MAPPING POLYNOMIAL OF DIFFERENT ORDERS",
+            "type": "article-journal",
+            "volume": "5"
         },
         {
             "author": [

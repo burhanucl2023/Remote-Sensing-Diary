@@ -21,7 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -140,6 +159,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#corrections" id="toc-corrections" class="nav-link" data-scroll-target="#corrections"><span class="header-section-number">3.1</span> Corrections</a></li>
   </ul></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">4</span> Applications</a></li>
+  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">5</span> Reflections</a></li>
   </ul>
 </nav>
     </div>
@@ -182,8 +202,42 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="applications" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> Applications</h1>
+<p>This week’s session focused on rectifying raw satellite images, merging them, and enhancing their quality, particularly delving into the significance of atmospheric corrections in satellite image studies. It’s crucial to recognize that satellite images often suffer from distortions due to various factors which were discussed above, and these can compromise the accuracy of our analysis. To mitigate these distortions, the corrections are routinely applied as a prerequisite before conducting analysis. These corrections ensure that the images are properly aligned and scaled, laying a reliable groundwork for subsequent interpretation and extraction of meaningful data.</p>
+<p>I stumbled upon a research paper by <span class="citation" data-cites="hassan2006b">Hassan et al. (<a href="references.html#ref-hassan2006b" role="doc-biblioref">2006</a>)</span>, where they delve into examining how changes in the number of Ground Control Points (GCPs) and the degree of mapping polynomials affect the accuracy of the geometric correction process. They utilized the Root Mean Square Error (RMS) at the chosen GCPs to gauge the accuracy of their findings. The study revealed that employing a higher degree of polynomial rectification alongside an increased number of GCPs resulted in elevated RMS errors.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/geom_correction_4_GCP.JPG" style="width:100.0%;height:100.0%" class="figure-img"></p>
+<figcaption class="figure-caption">a &amp; b – Shows the raw image2 and its corresponding reference image, c &amp; d – 4 GCPs distribution on raw image2 and its reference, e &amp; f – corrected image2, and its reference,Source:<span class="citation" data-cites="hassan2006b">Hassan et al. (<a href="references.html#ref-hassan2006b" role="doc-biblioref">2006</a>)</span></figcaption>
+</figure>
+</div>
+<p>Similarly, the same image was corrected by using 16 Ground Control Points as shown below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/geom_correction_16_GCP.JPG" style="width:100.0%;height:100.0%" class="figure-img"></p>
+<figcaption class="figure-caption">a &amp; b – shows the raw image2 and its corresponding reference image, c &amp; d – 16 GCPs distribution on raw image2 and its reference, e &amp; f – corrected image2, and its reference, Source <span class="citation" data-cites="hassan2006b">Hassan et al. (<a href="references.html#ref-hassan2006b" role="doc-biblioref">2006</a>)</span></figcaption>
+</figure>
+</div>
+<p>The study revealed that employing a higher degree of polynomial rectification alongside an increased number of GCPs resulted in elevated RMS errors.The results of the study with respect to GCP, RMS is shown below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/rms_week_3.png" style="width:100.0%;height:100.0%" class="figure-img"></p>
+<figcaption class="figure-caption">Average of RMS error of all test images at each order of polynomials, Source <span class="citation" data-cites="hassan2006b">Hassan et al. (<a href="references.html#ref-hassan2006b" role="doc-biblioref">2006</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="reflections" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Reflections</h1>
+<p>As I joined the Term quite late, so had to catch up with all in a short amount of time. But, as the lectures and the practical notebooks were crafted perfectly, so I was able to grasp most of the concepts. Regarding, this week, I understand the importance of covering corrections, despite their initial complexity, to ensure data quality and facilitate comparison between different images. Exploring how remotely sensed images can be manipulated reveals deeper layers of information beyond the surface data. Although I didn’t do the practical exercises this week, but I have gone through the code and have also checked the <span class="citation" data-cites="ahmad">Ahmad (<a href="references.html#ref-ahmad" role="doc-biblioref">n.d.</a>)</span> as recommended &amp; I found it valuable and I anticipate revisiting it in future.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-ahmad" class="csl-entry" role="listitem">
+Ahmad, Dr. Zia. n.d. <span>“Geospatial <span>Data Science</span> in <span>R</span>.”</span> Accessed March 9, 2024. <a href="https://zia207.github.io/geospatial-r-github.io/index.html">https://zia207.github.io/geospatial-r-github.io/index.html</a>.
+</div>
+<div id="ref-hassan2006b" class="csl-entry" role="listitem">
+Hassan, Fawzy, Gouda Salama, Esam Hamza, and H. Hussien. 2006. <span>“<span>GEOMETRIC CORRECTION OF REMOTE SENSING SATELLITE DIGITAL IMAGES USING MAPPING POLYNOMIAL OF DIFFERENT ORDERS</span>.”</span> <em>The International Conference on Electrical Engineering</em> 5 (5): 1–22. <a href="https://doi.org/10.21608/iceeng.2006.33672">https://doi.org/10.21608/iceeng.2006.33672</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
