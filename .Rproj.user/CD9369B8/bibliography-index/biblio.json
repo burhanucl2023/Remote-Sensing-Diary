@@ -207,6 +207,66 @@
             "type": "motion_picture"
         },
         {
+            "DOI": "10.1016/j.rse.2017.06.031",
+            "ISSN": "0034-4257",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0034425717302900",
+            "abstract": "Google Earth Engine is a cloud-based platform for planetary-scale geospatial analysis that brings Google’s massive computational capabilities to bear on a variety of high-impact societal issues including deforestation, drought, disaster, disease, food security, water management, climate monitoring and environmental protection. It is unique in the field as an integrated platform designed to empower not only traditional remote sensing scientists, but also a much wider audience that lacks the technical capacity needed to utilize traditional supercomputers or large-scale commodity cloud computing resources.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        9
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Gorelick",
+                    "given": "Noel"
+                },
+                {
+                    "family": "Hancher",
+                    "given": "Matt"
+                },
+                {
+                    "family": "Dixon",
+                    "given": "Mike"
+                },
+                {
+                    "family": "Ilyushchenko",
+                    "given": "Simon"
+                },
+                {
+                    "family": "Thau",
+                    "given": "David"
+                },
+                {
+                    "family": "Moore",
+                    "given": "Rebecca"
+                }
+            ],
+            "collection-title": "Big Remotely Sensed Data: Tools, applications and experiences",
+            "container-title": "Remote Sensing of Environment",
+            "container-title-short": "Remote Sensing of Environment",
+            "id": "gorelick2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        12,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Analysis,Big data,Cloud computing,Data democratization,Earth Engine,Platform",
+            "page": "18-27",
+            "title": "Google Earth Engine: Planetary-scale geospatial analysis for everyone",
+            "title-short": "Google Earth Engine",
+            "type": "article-journal",
+            "volume": "202"
+        },
+        {
             "DOI": "10.21608/iceeng.2006.33672",
             "ISSN": "2636-4441",
             "URL": "http://iceeng.journals.ekb.eg/article_33672.html",
@@ -422,6 +482,22 @@
             "annote": "Tropical Cyclone -Cloud",
             "id": "zotero-132",
             "title": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2024-02-24",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://earthengine.google.com/timelapse/",
+            "abstract": "Explore the dynamics of our changing planet over the past three and a half decades.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        9
+                    ]
+                ]
+            },
+            "id": "zotero-149",
+            "title": "Google Timelapse",
             "type": "webpage"
         }
     ],

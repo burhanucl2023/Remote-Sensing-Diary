@@ -1,1 +1,7 @@
+---
+title: "Week 4 - Policy"
+author: "Burhan Ahmad Wani"
+---
 
+## Summary
+This week, we delved into Google Earth Engine (GEE), a cloud-based platform for accessing and processing large geospatial datasets. GEE simplifies high-performance computing for researchers, facilitating sharing of results with various stakeholders. It offers an API and web-based IDE for quick prototyping and visualization. Instead of downloading heavy satellite imagery, GEE can swiftly load datasets, including various types of satellite imagery, via its Data Catalog. GEE operates on client-side code execution, enhancing speed, and utilizes JavaScript. It distinguishes between raster data (images) and vector data (features), organizing them into Image Collections and Feature Collections, respectively.

@@ -3,15 +3,15 @@ title: "Week 1 - Basics"
 author: "Burhan Ahmad Wani"
 ---
 
-# Summary
+## Summary
 
-## What is Remote Sensing, you ask?
+### What is Remote Sensing, you ask?
 
 Remote sensing is like Earth's Personal Observer, capturing information from afar. NASA defines Remote Sensing as acquiring information from a distance - @earthdata-website2019 . Also, @cdi_wiley_ebooks_10_1002_0471783390_ch1_ch1 define remote sensing as "the acquisition of information about an object without being in physical contact with it". All this is achieved through sensors mounted on satellites, planes, drones, etc.
 
 ![Space Satellite GIF by NASA - @giphy](images/giphy.gif){width="100%" height="100%"}
 
-## Types of Sensors ?
+### Types of Sensors ?
 
 Remote sensing employs two main types of sensors: Passive and Active.
 
@@ -23,7 +23,7 @@ The choice between passive and active sensors depends on the specific environmen
 
 ![Difference between passive and active sensors for remote sensing. Image © @zotero-104](images/sensors.jpg){width="100%" height="100%"}
 
-## Electromagnetic Spectrum ?
+### Electromagnetic Spectrum ?
 
 Remote sensing is based on the principle that there is always an interaction between electromagnetic radiation and an object.Electromagnetic waves travel through the air and space, each with different wavelengths and frequencies. Some waves, like radio and infrared, have long wavelengths, while others, such as ultraviolet and x-rays, have short wavelength. Human eyes can only see a small part called visible light.
 
@@ -31,7 +31,7 @@ Different types of radiation operate in various parts of the electromagnetic spe
 
 ![Electromagnetic Spectrum, Source @earthdata-website2019](images/EMS-Introduction.jpeg){width="100%" height="100%"}
 
-## Resolutions
+### Resolutions
 
 Remote sensing data encompasses four key resolutions:
 
@@ -45,7 +45,7 @@ Remote sensing data encompasses four key resolutions:
 
 ![Diagram showing different Resolutions, Source @darbari2022](images/resolutions.png){width="100%" height="100%"}
 
-# Applications
+## Applications
 
 Remote sensing data finds numerous applications across diverse fields. It is used in agriculture for optimizing uses of fertilizers, prediction of crop yields,measuring soil moisture content, monitoring droughts, assessment of crop health, etc.
 
@@ -57,6 +57,6 @@ Similarly, in forestry it can be used for monitoring forest cover, tracking defo
 
 Also, during my research regarding the use of remote sensing, I came across one of the works which discussed the application of remote sensing in route planning for road projects in challenging terrain (@mishra2015). This study delved into the effectiveness of remote sensing and Geographic Information Systems (GIS) in mapping road infrastructure in rugged landscapes. Various factors influencing road network construction and the resolution of associated challenges were examined within a specific context. Criteria encompassing major and subsidiary factors were assessed to select an appropriate model for comparing attributes and grading them based on their significance. All these examples together demonstrate how valuable remote sensing technology is across a wide range of fields.
 
-# Reflections
+## Reflections
 
 Transitioning from a Civil Engineering background to the realm of spatial science, particularly remote sensing, has been a thrilling journey. One notable application that resonates with me, especially concerning India, is the utilization of remote sensing for identifying "Unconnected Habitations." These are isolated dwellings or small clusters of houses situated in regions lacking road access, electricity, and water supply. Typically nestled in mountainous terrains, these areas are predominantly inhabited by tribal communities. So, by leveraging remote sensing technology we could identify these remote settlements, facilitating the formulation of targeted policies aimed at fostering development within these underserved regions.

@@ -1,1 +1,7 @@
+---
+title: "Week 6 - Classification"
+author: "Burhan Ahmad Wani"
+---
 
+## Summary
+Classification in remote sensing involves categorizing pixels in imagery to label them based on land cover use or other characteristics. This process is integral to various data processing pipelines and is commonly used for identifying urban areas, vegetation, and other land uses. This week's lecture focused on classification in remote sensing and its implementation using machine learning techniques.Machine learning methods discussed include classification and regression trees (CART), random forests, maximum likelihood, and support vector machine (SVM). The lecture also covered supervised and unsupervised image classification approaches. Each classification method has its own principles and considerations, such as the need for human knowledge in expert systems, the use of decision rules in maximum likelihood classification, and the margin optimization in SVM. Considerations include whether to classify pixels or objects, the selection of the appropriate machine learning model, and the determination of necessary hyperparameters. Overall, this week's lecture provided a comprehensive overview of classification methods in remote sensing and their application through machine learning.
