@@ -1,1 +1,55 @@
+---
+title: "Week 7 - Classification I"
+author: "Burhan Ahmad Wani"
+---
 
+## Summary
+
+Classification in remote sensing is the process of sorting pixels in images to label them, which is essential for tasks such as monitoring urban green spaces or combating illegal logging in forests, and other land uses. This week's lecture focused on classification in remote sensing and its implementation using machine learning techniques.Machine learning methods discussed include classification and regression trees (CART), random forests, maximum likelihood, and support vector machine (SVM). The lecture also covered supervised and unsupervised image classification approaches. Each classification method has its own principles and considerations, such as the need for human knowledge in expert systems, the use of decision rules in maximum likelihood classification, and the margin optimization in SVM. Considerations include whether to classify pixels or objects, the selection of the appropriate machine learning model, and the determination of necessary hyperparameters.
+
+### Classification and Regression Trees (CART)?
+
+- It creates a hierarchical model composed of nodes and branches. Nodes signify decision points, while branches represent outcomes. At the end of the hierarchy, leaf nodes contain predicted values for the target variable.
+
+- It creates a hierarchical model composed of nodes and branches. Nodes signify decision points, while branches represent outcomes. At the end of the hierarchy, leaf nodes contain predicted values for the target variable.
+
+**YAY'S**
+
+- Classification and regression trees implicitly perform feature selection.
+- Outliers have no meaningful effect on CART.
+- It requires minimal supervision and produces easy-to-understand models.
+
+**NAY'S** 
+
+- Overfitting.
+- High Variance.
+- Low bias.
+- Structure may be unstable.
+
+### Random Forest?
+
+- Random forests use many decision trees together. Each tree is made from a different part of the data, and their predictions are combined to give a final answer. This helps overcome any mistakes from individual trees, making the overall result more accurate. 
+- Random forests are better than single decision trees because they are more flexible, accurate, and easier to use. They're great for both classifying things and predicting values, making them a top pick in machine learning. Basically, random forests make decision trees work better by teaming them up, resulting in better performance overall.
+
+**YAY'S**
+
+- Provide high accuracy in both classification and regression tasks.
+- Robust to overfitting
+- Suitable for a wide range of tasks, including handling both numerical and categorical data.
+
+**NAY'S**
+
+- Random forests can be more complex to interpret
+- Training a random forest can be computationally expensive and require significant memory.
+- Optimizing hyperparameters for random forests can be challenging and time-consuming.
+- May not perform well with very small datasets due to the risk of overfitting and limited diversity among trees.
+ 
+## Applications
+
+
+
+
+
+## Reflections
+
+This week was a lot of important topics and it explored the intricacies of machine learning for informed decision-making, even if the technical details are difficult to grasp. I will be revising this lecture and will be using these techniques in Google Earth Engine in near future.

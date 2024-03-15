@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Burhan Ahmad Wani">
 
-<title>Welcome to Remote Sensing – week_8</title>
+<title>Welcome to Remote Sensing - 8&nbsp; Week 8 - Classification II</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,7 +50,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="next">
+<link href="./week_9.html" rel="next">
 <link href="./week_7.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -62,11 +82,13 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating fullcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -75,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week_8.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">week_8.html</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week_8.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 8 - Classification II</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -114,38 +136,50 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./week_2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2 - Sensor Presentation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./week_3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 3 - Corrections</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3 - Corrections</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week_4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">week_4.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week 4 - Policy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week_5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week 5 - Google Earth Engine</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 5 - Google Earth Engine</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week_6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">week_6.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 6 - Working on Group Presentation</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week_7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">week_7.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week 7 - Classification I</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week_8.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">week_8.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 8 - Classification II</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week_9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week 9 - SAR</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -159,14 +193,142 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">8.1</span> Summary</a>
+  <ul class="collapse">
+  <li><a href="#object-based-image-analysis-obia" id="toc-object-based-image-analysis-obia" class="nav-link" data-scroll-target="#object-based-image-analysis-obia"><span class="header-section-number">8.1.1</span> Object Based Image Analysis (OBIA)</a></li>
+  <li><a href="#sub-pixel-analysis" id="toc-sub-pixel-analysis" class="nav-link" data-scroll-target="#sub-pixel-analysis"><span class="header-section-number">8.1.2</span> Sub-Pixel Analysis</a></li>
+  <li><a href="#accuracy" id="toc-accuracy" class="nav-link" data-scroll-target="#accuracy"><span class="header-section-number">8.1.3</span> Accuracy</a></li>
+  </ul></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">8.2</span> Applications</a></li>
+  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">8.3</span> Reflections</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 8 - Classification II</span></h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Burhan Ahmad Wani </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="summary" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">8.1</span> Summary</h2>
+<p>This week’s focus remained on exploring additional classification methods with particular attention given to object-based image analysis and sub-pixel analysis. Below, I will explore these in details below.</p>
+<section id="object-based-image-analysis-obia" class="level3" data-number="8.1.1">
+<h3 data-number="8.1.1" class="anchored" data-anchor-id="object-based-image-analysis-obia"><span class="header-section-number">8.1.1</span> Object Based Image Analysis (OBIA)</h3>
+<p>In contrast to pixel-based classification methods that classify individual pixels directly, object-based classification first aggregates image pixels into spectrally homo-genous image objects using an image segmentation algorithm which clusters pixels based on spatial proximity and colour similarity and resulting in classification of individual objects (<span class="citation" data-cites="liu2010">Liu and Xia (<a href="references.html#ref-liu2010" role="doc-biblioref">2010</a>)</span>).</p>
+</section>
+<section id="sub-pixel-analysis" class="level3" data-number="8.1.2">
+<h3 data-number="8.1.2" class="anchored" data-anchor-id="sub-pixel-analysis"><span class="header-section-number">8.1.2</span> Sub-Pixel Analysis</h3>
+<p>Sub-pixel analysis examines the contents of a single pixel, determining the mix of land cover types within it. It calculates the percentage of each land cover type per pixel by comparing reflectance values.This method helps classify pixels, particularly when they contain multiple land cover types. It estimates the portion of each pixel covered by different materials. Unlike multi-pixel analysis, sub-pixel analysis concentrates on individual pixels, essential for satellite images with low resolution where each pixel covers a larger land area.</p>
+<p>The study by <span class="citation" data-cites="whiteside2011">Whiteside, Boggs, and Maier (<a href="references.html#ref-whiteside2011" role="doc-biblioref">2011</a>)</span> explains the object-based &amp; pixel type of analysis.In the pixel-based classification, each pixel is classified separately, whereas in the object-based classification, all pixels that belong to one GIS object are grouped together. The result of the pixel grouping is like a smoothing of the data. Resultant noise in the pixel-based classification shows why OBIA has great advantage over it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/object_pixel.JPG" style="width:100.0%;height:100.0%" class="figure-img"></p>
+<figcaption class="figure-caption">LST Values for different years,of Indianapolis, USA. Source - <span class="citation" data-cites="whiteside2011">Whiteside, Boggs, and Maier (<a href="references.html#ref-whiteside2011" role="doc-biblioref">2011</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="accuracy" class="level3" data-number="8.1.3">
+<h3 data-number="8.1.3" class="anchored" data-anchor-id="accuracy"><span class="header-section-number">8.1.3</span> Accuracy</h3>
+<p>In remote sensing and machine learning, we use different methods to check how accurate our models are. The one we pick depends on what we’re using the model for. Some common ones are user’s accuracy, producer’s accuracy, and F1 score which we obtain from confusion matrix - which is a table showing how many pixels were classified correctly or incorrectly for each class. Here is a brief overview of all these parameters</p>
+<table class="table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 22%">
+<col style="width: 17%">
+<col style="width: 19%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Producer’s Accuracy</th>
+<th style="text-align: center;">User’s Accuracy</th>
+<th style="text-align: center;">Overall Accuracy</th>
+<th style="text-align: center;">Kappa Coefficient</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Explanation</strong></td>
+<td style="text-align: center;">Measures the proportion of actual positive cases that were correctly identified positive cases.</td>
+<td style="text-align: center;">Measures the proportion of correctly identified positive cases out of all cases classified as positive.</td>
+<td style="text-align: center;">Measures the proportion of all correctly classified pixels out of all observations.</td>
+<td style="text-align: center;">Measures the agreement between observed and expected accuracy levels when there is no agreement by chance.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>Formula</strong></td>
+<td style="text-align: center;"><span class="math inline">\(\frac{TP}{TP+FN}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\frac{TP}{TP+FP}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\frac{TP+TN}{TP+FP+TN+FN}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\frac{p_o-p_e}{1-p_e}\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="applications" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">8.2</span> Applications</h2>
+<p>One of the studies that came across while reading about Sub-Pixel Analyis was of <span class="citation" data-cites="weng2008">Weng and Lu (<a href="references.html#ref-weng2008" role="doc-biblioref">2008</a>)</span> in which they studied the urbanization effect on land surface temperature (LST) in USA. In this study they gathered the satellite images from different time intervals (in years) and they analyzed the rise in urbanization with the land surface temperature. The study demonstrated that Urbanization created an evolved inverse relationship between impervious and vegetation coverage, and brought about new LST patterns because of LST’s correlations with both impervious and vegetation coverage.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/sub_pixel.JPG" style="width:100.0%;height:100.0%" class="figure-img"></p>
+<figcaption class="figure-caption">LST Values for different years,of Indianapolis, USA. Source - <span class="citation" data-cites="weng2008">Weng and Lu (<a href="references.html#ref-weng2008" role="doc-biblioref">2008</a>)</span></figcaption>
+</figure>
+</div>
+<p>Also, one of the application of Object-based image analysis came across during my reading was the study done by <span class="citation" data-cites="najafi2018">Najafi et al. (<a href="references.html#ref-najafi2018" role="doc-biblioref">2018</a>)</span> in Iran to determine the crop residue estimate using Landsat data by applying the OBIA. To process the data, they applied the object-based image processing steps which include segmentation and classification and developed intelligent objects. Further, after applying OBIA algorithms results were validated against ground control data set by field survey.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/obia.JPG" style="width:100.0%;height:100.0%" class="figure-img"></p>
+<figcaption class="figure-caption">Classification results of tillage indices functions: a to f.&nbsp;Source - <span class="citation" data-cites="najafi2018">Najafi et al. (<a href="references.html#ref-najafi2018" role="doc-biblioref">2018</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="reflections" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">8.3</span> Reflections</h2>
+<p>This week touched on the disparity between real-world features and satellite data, underscoring the importance of employing classification methods such as subpixel and object-based approaches to accurately interpret the data. Additionally, it’s crucial to refrain from depending solely on commonly used metrics without verifying their validity. We need to assess whether the coefficients we utilize are suitable for the specific task at hand. Also, the impact of spatial autocorrelation in classification systems offers a fresh perspective, particularly when dealing with other spatial data. Reflecting on all of this, I feel content and pleased to know the practical applications of remote sensing data, particularly in urban environments.</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-liu2010" class="csl-entry" role="listitem">
+Liu, Desheng, and Fan Xia. 2010. <span>“Assessing Object-Based Classification: Advantages and Limitations.”</span> <em>Remote Sensing Letters</em> 1 (4): 187–94. <a href="https://doi.org/10.1080/01431161003743173">https://doi.org/10.1080/01431161003743173</a>.
+</div>
+<div id="ref-najafi2018" class="csl-entry" role="listitem">
+Najafi, P., H. Navid, B. Feizizadeh, and I. Eskandari. 2018. <span>“Object-Based Satellite Image Analysis Applied for Crop Residue Estimating Using <span>Landsat OLI</span> Imagery.”</span> <em>International Journal of Remote Sensing</em> 39 (19): 6117–36. <a href="https://doi.org/10.1080/01431161.2018.1454621">https://doi.org/10.1080/01431161.2018.1454621</a>.
+</div>
+<div id="ref-weng2008" class="csl-entry" role="listitem">
+Weng, Qihao, and Dengsheng Lu. 2008. <span>“A Sub-Pixel Analysis of Urbanization Effect on Land Surface Temperature and Its Interplay with Impervious Surface and Vegetation Coverage in <span>Indianapolis</span>, <span>United States</span>.”</span> <em>International Journal of Applied Earth Observation and Geoinformation</em> 10 (1): 68–83. <a href="https://doi.org/10.1016/j.jag.2007.05.002">https://doi.org/10.1016/j.jag.2007.05.002</a>.
+</div>
+<div id="ref-whiteside2011" class="csl-entry" role="listitem">
+Whiteside, Timothy G., Guy S. Boggs, and Stefan W. Maier. 2011. <span>“Comparing Object-Based and Pixel-Based Classifications for Mapping Savannas.”</span> <em>International Journal of Applied Earth Observation and Geoinformation</em> 13 (6): 884–93. <a href="https://doi.org/10.1016/j.jag.2011.06.008">https://doi.org/10.1016/j.jag.2011.06.008</a>.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -405,12 +567,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./week_7.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">week_7.html</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week 7 - Classification I</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week_9.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week 9 - SAR</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

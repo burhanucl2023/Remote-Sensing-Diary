@@ -318,6 +318,95 @@
             "volume": "5"
         },
         {
+            "DOI": "10.1080/01431160601075582",
+            "ISSN": "0143-1161",
+            "URL": "https://doi.org/10.1080/01431160601075582",
+            "abstract": "This study introduces change detection based on object/neighbourhood correlation image analysis and image segmentation techniques. The correlation image analysis is based on the fact that pairs of brightness values from the same geographic area (e.g. an object) between bi‐temporal image datasets tend to be highly correlated when little change occurres, and uncorrelated when change occurs. Five different change detection methods were investigated to determine how new contextual features could improve change classification results, and if an object‐based approach could improve change classification when compared with per‐pixel analysis. The five methods examined include (1) object‐based change classification incorporating object correlation images (OCIs), (2) object‐based change classification incorporating neighbourhood correlation images (NCIs), (3) object‐based change classification without contextual features, (4) per‐pixel change classification incorporating NCIs, and (5) traditional per‐pixel change classification using only bi‐temporal image data. Two different classification algorithms (i.e. a machine‐learning decision tree and nearest‐neighbour) were also investigated. Comparison between the OCI and the NCI variables was evaluated. Object‐based change classifications incorporating the OCIs or the NCIs produced more accurate change detection classes (Kappa approximated 90%) than other change detection results (Kappa ranged from 80 to 85%).",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Im",
+                    "given": "J."
+                },
+                {
+                    "family": "Jensen",
+                    "given": "J. R."
+                },
+                {
+                    "family": "Tullis",
+                    "given": "J. A."
+                }
+            ],
+            "container-title": "International Journal of Remote Sensing",
+            "id": "im2008",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "page": "399-423",
+            "publisher": "Taylor & Francis",
+            "title": "Object‐based change detection using correlation image analysis and image segmentation",
+            "type": "article-journal",
+            "volume": "29"
+        },
+        {
+            "DOI": "10.1080/01431161003743173",
+            "ISSN": "2150-704X",
+            "URL": "https://doi.org/10.1080/01431161003743173",
+            "abstract": "The advantages of object-based classification over the traditional pixel-based approach are well documented. However, the potential limitations of object-based classification remain less explored. In this letter, we assess the advantages and limitations of an object-based approach to remote sensing image classification relative to a pixel-based approach. We first quantified the negative impacts of under-segmentation errors on the potential accuracy of object-based classification by developing a new segmentation accuracy measure. Then we evaluated the advantages and limitations of object-based classification by quantifying their overall effects relative to pixel-based classification, with respect to their classification units and features at multiple segmentation scales. The results based on a QuickBird satellite image indicate that (1) segmentation accuracies decrease with increasing segmentation scales and the negative impacts of under-segmentation errors become significantly large at large scales and (2) there are both advantages and limitations in using object-based classification, and their trade-off determines the overall effect of object-based classification, which is dependent on the segmentation scales.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Liu",
+                    "given": "Desheng"
+                },
+                {
+                    "family": "Xia",
+                    "given": "Fan"
+                }
+            ],
+            "container-title": "Remote Sensing Letters",
+            "id": "liu2010",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010,
+                        12,
+                        1
+                    ]
+                ]
+            },
+            "page": "187-194",
+            "publisher": "Taylor & Francis",
+            "title": "Assessing object-based classification: Advantages and limitations",
+            "title-short": "Assessing object-based classification",
+            "type": "article-journal",
+            "volume": "1"
+        },
+        {
             "author": [
                 {
                     "family": "Matin",
@@ -388,6 +477,240 @@
             "title": "A study on the occurrence of flood events over Jammu and Kashmir during September 2014 using satellite remote sensing",
             "type": "article-journal",
             "volume": "78"
+        },
+        {
+            "DOI": "10.1080/01431161.2018.1454621",
+            "ISSN": "0143-1161",
+            "URL": "https://doi.org/10.1080/01431161.2018.1454621",
+            "abstract": "The main objective of this study is to apply an object-based image analysis (OBIA) approach to satellite image processing and determining crop residue cover (CRC) and tillage intensity. To achieve this goal, we collected ground truth data using line-transect method from 35 plots of farmlands with an area of 528 ha. Accordingly, Landsat Operational Land Imager (OLI) satellite image together with global positioning system (GPS)-based survey data set were considered for applying the OBIA methods and deriving CRC. To process the data, object-based image processing steps including segmentation and classification were applied to develop intelligent objects and establish classification using spectral and spatial characteristics of CRC. We developed three categories of rule sets including mean indices, tillage indices, and grey-level co-occurrence matrix (GLCM) texture features using the OBIA algorithms and assign class method. Results were validated against of ground control data set and were collected by GPS in field survey. Results of this study indicated that the brightness, normalised difference tillage index, and GLCM texture feature mean performed out as effective techniques. Overall accuracy and kappa coefficient (κ) were computed to be about 0.91 and 0.86; 0.93 and 0.90; 0.60 and 0.35, respectively, for the above-mentioned indices. The foregoing discussion has attempted to demonstrate that the remotely sensed data can be effective approach and substitute for ground methods, especially in large areas.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        15
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Najafi",
+                    "given": "P."
+                },
+                {
+                    "family": "Navid",
+                    "given": "H."
+                },
+                {
+                    "family": "Feizizadeh",
+                    "given": "B."
+                },
+                {
+                    "family": "Eskandari",
+                    "given": "I."
+                }
+            ],
+            "container-title": "International Journal of Remote Sensing",
+            "id": "najafi2018",
+            "issue": "19",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        10,
+                        2
+                    ]
+                ]
+            },
+            "page": "6117-6136",
+            "publisher": "Taylor & Francis",
+            "title": "Object-based satellite image analysis applied for crop residue estimating using Landsat OLI imagery",
+            "type": "article-journal",
+            "volume": "39"
+        },
+        {
+            "DOI": "10.3390/rs11151779",
+            "ISSN": "2072-4292",
+            "URL": "https://www.mdpi.com/2072-4292/11/15/1779",
+            "abstract": "Shoreline mapping using satellite remote sensing images has the advantages of large-scale surveys and high efficiency. However, low spatial resolution, various geometric morphologies and complex offshore environments prevent accurate positioning of the shoreline. This article proposes a semi-global subpixel shoreline localization method that considers utilizing morphological control points to divide the initial artificial shoreline into segments of relatively simple morphology and analyzing the local intensity homogeneity to calculate the intensity integral error. Combined with the segmentation-merge-fitting method, the algorithm determines the subpixel location accurately. In experiments, we select five artificial shorelines with various geometric morphologies from Landsat 8 Operational Land Imager (OLI) data. The five subpixel artificial shoreline RMSE results lie in the range of 3.02 m to 4.77 m, with line matching results varying from 2.51 m to 3.72 m. Thus, it can be concluded that the proposed subpixel localization algorithm is effective and applicable to artificial shoreline in various geometric morphologies and is robust to complex offshore environments, to some extent.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Song",
+                    "given": "Yan"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Fan"
+                },
+                {
+                    "family": "Ling",
+                    "given": "Feng"
+                },
+                {
+                    "family": "Yue",
+                    "given": "Linwei"
+                }
+            ],
+            "container-title": "Remote Sensing",
+            "id": "song2019",
+            "issue": "15, 15",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "intensity integral error,semi-global subpixel localization,shoreline mapping",
+            "language": "en-US",
+            "page": "1779",
+            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "title": "Automatic Semi-Global Artificial Shoreline Subpixel Localization Algorithm for Landsat Imagery",
+            "type": "article-journal",
+            "volume": "11"
+        },
+        {
+            "DOI": "10.1016/j.jag.2007.05.002",
+            "ISSN": "1569-8432",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0303243407000384",
+            "abstract": "This study developed an analytical procedure based upon a spectral unmixing model for characterizing and quantifying urban landscape changes in Indianapolis, Indiana, the United States, and for examining the environmental impact of such changes on land surface temperatures (LST). Three dates of Landsat TM/ETM+ images, acquired in 1991, 1995, and 2000, respectively, were utilized to document the historical morphological changes in impervious surface and vegetation coverage and to analyze the relationship between these changes and those occurred in LST. Three fraction endmembers, i.e., impervious surface, green vegetation, and shade, were derived with an unconstrained least-squares solution. A hybrid classification procedure, which combined maximum-likelihood and decision-tree algorithms, was developed to classify the fraction images into land use and land cover classes. Correlation analyses were conducted to investigate the changing relationships of LST with impervious surface and vegetation coverage. Results indicate that multi-temporal fraction images were effective for quantifying the dynamics of urban morphology and for deriving a reliable measurement of environmental variables such as vegetation abundance and impervious surface coverage. Urbanization created an evolved inverse relationship between impervious and vegetation coverage, and brought about new LST patterns because of LST’s correlations with both impervious and vegetation coverage. Further researches should be directed to refine spectral mixture modeling by stratification, and by the use of multiple endmembers and hyperspectral imagery.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Weng",
+                    "given": "Qihao"
+                },
+                {
+                    "family": "Lu",
+                    "given": "Dengsheng"
+                }
+            ],
+            "container-title": "International Journal of Applied Earth Observation and Geoinformation",
+            "container-title-short": "International Journal of Applied Earth Observation and Geoinformation",
+            "id": "weng2008",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008,
+                        2,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Impervious surface,Indianapolis,Land surface temperature,Spectral mixture analysis,Urban land cover,Vegetation abundance",
+            "page": "68-83",
+            "title": "A sub-pixel analysis of urbanization effect on land surface temperature and its interplay with impervious surface and vegetation coverage in Indianapolis, United States",
+            "type": "article-journal",
+            "volume": "10"
+        },
+        {
+            "DOI": "10.1016/j.jag.2007.05.002",
+            "ISSN": "1569-8432",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0303243407000384",
+            "abstract": "This study developed an analytical procedure based upon a spectral unmixing model for characterizing and quantifying urban landscape changes in Indianapolis, Indiana, the United States, and for examining the environmental impact of such changes on land surface temperatures (LST). Three dates of Landsat TM/ETM+ images, acquired in 1991, 1995, and 2000, respectively, were utilized to document the historical morphological changes in impervious surface and vegetation coverage and to analyze the relationship between these changes and those occurred in LST. Three fraction endmembers, i.e., impervious surface, green vegetation, and shade, were derived with an unconstrained least-squares solution. A hybrid classification procedure, which combined maximum-likelihood and decision-tree algorithms, was developed to classify the fraction images into land use and land cover classes. Correlation analyses were conducted to investigate the changing relationships of LST with impervious surface and vegetation coverage. Results indicate that multi-temporal fraction images were effective for quantifying the dynamics of urban morphology and for deriving a reliable measurement of environmental variables such as vegetation abundance and impervious surface coverage. Urbanization created an evolved inverse relationship between impervious and vegetation coverage, and brought about new LST patterns because of LST’s correlations with both impervious and vegetation coverage. Further researches should be directed to refine spectral mixture modeling by stratification, and by the use of multiple endmembers and hyperspectral imagery.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Weng",
+                    "given": "Qihao"
+                },
+                {
+                    "family": "Lu",
+                    "given": "Dengsheng"
+                }
+            ],
+            "container-title": "International Journal of Applied Earth Observation and Geoinformation",
+            "container-title-short": "International Journal of Applied Earth Observation and Geoinformation",
+            "id": "weng2008a",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008,
+                        2,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Impervious surface,Indianapolis,Land surface temperature,Spectral mixture analysis,Urban land cover,Vegetation abundance",
+            "page": "68-83",
+            "title": "A sub-pixel analysis of urbanization effect on land surface temperature and its interplay with impervious surface and vegetation coverage in Indianapolis, United States",
+            "type": "article-journal",
+            "volume": "10"
+        },
+        {
+            "DOI": "10.1016/j.jag.2011.06.008",
+            "ISSN": "1569-8432",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0303243411000912",
+            "abstract": "The development of robust object-based classification methods suitable for medium to high resolution satellite imagery provides a valid alternative to “traditional” pixel-based methods. This paper compares the results of an object-based classification to a supervised per-pixel classification for mapping land cover in the tropical north of the Northern Territory of Australia. The object-based approach involved segmentation of image data into objects at multiple scale levels. Objects were assigned classes using training objects and the Nearest Neighbour supervised and fuzzy classification algorithm. The supervised pixel-based classification involved the selection of training areas and a classification using the maximum likelihood classifier algorithm. Site-specific accuracy assessment using confusion matrices of both classifications were undertaken based on 256 reference sites. A comparison of the results shows a statistically significant higher overall accuracy of the object-based classification over the pixel-based classification. The incorporation of a digital elevation model (DEM) layer and associated class rules into the object-based classification produced slightly higher accuracies overall and for certain classes; however this was not statistically significant over the object-based using spectral information solely. The results indicate object-based analysis has good potential for extracting land cover information from satellite imagery captured over spatially heterogeneous land covers of tropical Australia.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Whiteside",
+                    "given": "Timothy G."
+                },
+                {
+                    "family": "Boggs",
+                    "given": "Guy S."
+                },
+                {
+                    "family": "Maier",
+                    "given": "Stefan W."
+                }
+            ],
+            "container-title": "International Journal of Applied Earth Observation and Geoinformation",
+            "container-title-short": "International Journal of Applied Earth Observation and Geoinformation",
+            "id": "whiteside2011",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011,
+                        12,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Accuracy assessment,Northern Australia,Object-based image analysis,Tropical savanna",
+            "page": "884-893",
+            "title": "Comparing object-based and pixel-based classifications for mapping savannas",
+            "type": "article-journal",
+            "volume": "13"
         },
         {
             "URL": "https://reefresilience.org/management-strategies/remote-sensing-and-mapping/introduction-to-remote-sensing/what-is-remote-sensing/",
