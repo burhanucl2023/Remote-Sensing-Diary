@@ -2,3 +2,5 @@
 title: "Week 6 - Working on Group Presentation"
 author: "Burhan Ahmad Wani"
 ---
+
+I was assigned to the group at the very last moment & they had already decided on the topic "Jakarta - Sinking City". So, I gave my inputs and we started working on the draft presentation on "Windows Slides" initially and finally moved to Xaringan.

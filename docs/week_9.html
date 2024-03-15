@@ -21,7 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -177,7 +196,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">9.1</span> Summary</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">9.1</span> Summary</a>
+  <ul class="collapse">
+  <li><a href="#sar" id="toc-sar" class="nav-link" data-scroll-target="#sar"><span class="header-section-number">9.1.1</span> SAR:</a></li>
+  </ul></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">9.2</span> Applications</a></li>
   <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">9.3</span> Reflections</a></li>
   </ul>
@@ -211,14 +233,84 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="9.1">
 <h2 data-number="9.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">9.1</span> Summary</h2>
+<section id="sar" class="level3" data-number="9.1.1">
+<h3 data-number="9.1.1" class="anchored" data-anchor-id="sar"><span class="header-section-number">9.1.1</span> SAR:</h3>
+<p>What is the fuss about Synthethic Aperture Radar aka SAR. Let us know some facts about SAR:-</p>
+<ul>
+<li>Synthetic Aperture RADAR (SAR) became a well-established and powerful remote sensing technology used worldwide for several applications thanks to the possibility of sensing the Earth’s surface at night and day, and in any weather condition <span class="citation" data-cites="2020"><em>Synthetic <span>Aperture Radar</span> (<span>SAR</span>) <span>Techniques</span> and <span>Applications</span></em> (<a href="references.html#ref-2020" role="doc-biblioref">2020</a>)</span>.</li>
+<li>Synthetic Aperture Radar (SAR) is a form of active data collection (<span class="citation" data-cites="earthsciencedatasystems2020">Earth Science Data Systems (<a href="references.html#ref-earthsciencedatasystems2020" role="doc-biblioref">2020</a>)</span>).</li>
+<li>SAR sensors generate their own energy and measure the amount of energy reflected back from the Earth’s surface.</li>
+<li>Unlike optical imagery, which is akin to interpreting a photograph, SAR data interpretation requires a different approach. The process will use multiple pulsed electromagnetic frequencies with different wavelengths in combinations to build up images of the target survey area. The different frequencies can have the ability to penetrate vegetation/canopy and even soils (<span class="citation" data-cites="zotero-166"><span>“Synthetic <span>Aperture Radar</span>”</span> (<a href="references.html#ref-zotero-166" role="doc-biblioref">n.d.</a>)</span>).</li>
+<li>SAR signals are responsive to surface characteristics such as structure and moisture rather than visual appearance.</li>
+<li>SAR data can be used for various applications including agriculture, forestry, urban planning, disaster monitoring, and military surveillance.</li>
+<li>SAR technology has both civilian and military applications, with satellites and aircraft being common platforms &amp; now drones as well contribute to the SAR data collection.</li>
+<li>SAR data can provide valuable insights into changes in the Earth’s surface over time, aiding in environmental monitoring and resource management.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/SAR.png" style="width:100.0%;height:100.0%" class="figure-img"></p>
+<figcaption class="figure-caption">SAR with different wavelengths, Source:<span class="citation" data-cites="zotero-166"><span>“Synthetic <span>Aperture Radar</span>”</span> (<a href="references.html#ref-zotero-166" role="doc-biblioref">n.d.</a>)</span></figcaption>
+</figure>
+</div>
+<p>One of the early uses of SAR over the Optical can be seen in the figure below &amp; it is one of the early SAR images. This was taken by astronauts onboard the space shuttle endeavor on Sept 30, 1994.The image on left is a optical image &amp; the right is a radar image which shows the flow of lava and it penetrates the dark ash &amp; smoke coming from erupting lava, thus giving us the view of the erupting volcano.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/SAR_RUSSIA.gif" style="width:100.0%;height:100.0%" class="figure-img"></p>
+<figcaption class="figure-caption">Optical vs SAR, Kamchatka Volcano, Russia. Source:<span class="citation" data-cites="zotero-174"><span>“<span>SIR-C</span>/<span>X-SAR</span> Image <span>Kliuchevskoi Volcano</span> Comparison”</span> (<a href="references.html#ref-zotero-174" role="doc-biblioref">n.d.</a>)</span></figcaption>
+</figure>
+</div>
+</section>
 </section>
 <section id="applications" class="level2" data-number="9.2">
 <h2 data-number="9.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">9.2</span> Applications</h2>
+<p>SAR has been used for many application like land cover changes, deforestation, for monitoring disaster episodes (floods, earthquakes, landslides,etc), for monitoring crop yield, for monitoring glaciers &amp; in human aid. One of the research which came across during my readings was Flood &amp; damage mapping in Japan by <span class="citation" data-cites="tay2020">Tay et al. (<a href="references.html#ref-tay2020" role="doc-biblioref">2020</a>)</span> . in this study they used SAR for deriving at a flood map using change detection approach.The validation was carried by aerial imagery &amp; other optical sources.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/SAR_floods.JPG" style="width:100.0%;height:100.0%" class="figure-img"></p>
+<figcaption class="figure-caption">Flood Extent - The blue polygon indicates the SAR footprint and white rectangles indicate the extents of zoomed-in panels on the right. Source:<span class="citation" data-cites="tay2020">Tay et al. (<a href="references.html#ref-tay2020" role="doc-biblioref">2020</a>)</span></figcaption>
+</figure>
+</div>
+<p>Another application of SAR, that was quite interesting to me because of my Civil Engineering background, was the use of SAR in monitoring Transport Infrastructure <span class="citation" data-cites="edwardjhoppe2016">Edward J Hoppe et al. (<a href="references.html#ref-edwardjhoppe2016" role="doc-biblioref">2016</a>)</span>. In this the researchers selected the COSMO-SkyMed satellite system operated by the Italian Space Agency &amp; it provides a coverage of 3-m pixel resolution when operated in “HIMAGE” mode, effectively providing time-displacement data at the centroids of consecutive 3 × 3 m2 areas on the Earth’s surface.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/road_sar_2.jpg" style="width:100.0%;height:100.0%" class="figure-img"></p>
+<figcaption class="figure-caption">Road with Good Patches &amp; Bad Patches - Source:<span class="citation" data-cites="edwardjhoppe2016">Edward J Hoppe et al. (<a href="references.html#ref-edwardjhoppe2016" role="doc-biblioref">2016</a>)</span></figcaption>
+</figure>
+</div>
+<p>Satellite-based radar systems are now capable of detecting surface deformation in the order of a few millimeters, due to a technique known as interferometric synthetic aperture radar (InSAR), which has become a standard tool for the remote sensing of displacements.In this study they use InSAR technology to be able to detect sinkholes near the road infrastructure, movements around road embankments, potholes &amp; pavement distress.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/road_sar.jpg" style="width:100.0%;height:100.0%" class="figure-img"></p>
+<figcaption class="figure-caption">Road Infrastructure Monitoring - Source:<span class="citation" data-cites="edwardjhoppe2016">Edward J Hoppe et al. (<a href="references.html#ref-edwardjhoppe2016" role="doc-biblioref">2016</a>)</span></figcaption>
+</figure>
+</div>
 </section>
 <section id="reflections" class="level2" data-number="9.3">
 <h2 data-number="9.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">9.3</span> Reflections</h2>
+<p>I have been quite facinated by this lecture and I must say, the breadth of applications that SAR Technology offers is truly impressive. The sheer potential it holds across diverse fields is both inspiring and humbling.. I’m planning to use SAR for my Crop Yield Prediction project and will continue to explore its uses and applications.</p>
+<p>At the end, I really feel happy and content with the work that I have done through this learning diary despite the time I had lost through a family emergency. But, I would like to congratulate <a href="https://scholar.google.com/citations?hl=en&amp;user=wLrJwyQAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Dr Andrew MacLachlan</a> for structuring the <a href="https://andrewmaclachlan.github.io/CASA0023/">course</a> so well and for this unique way of assessment. It’s been satisfying, interesting, and I’ve learned a lot. Thanks, Andy.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-earthsciencedatasystems2020" class="csl-entry" role="listitem">
+Earth Science Data Systems, NASA. 2020. <span>“What Is <span>Synthetic Aperture Radar</span>? | <span>Earthdata</span>.”</span> Backgrounder. Earth Science Data Systems, NASA. April 10, 2020. <a href="https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar">https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar</a>.
+</div>
+<div id="ref-edwardjhoppe2016" class="csl-entry" role="listitem">
+Edward J Hoppe, Brian Bruckno, Elizabeth Campbell, Scott T Acton, Andrea Vaccari, Michael Stuecheli, Adrian Bohane, Giacomo Falorni, and Jessica Morgan. 2016. <span>“Transportation <span>Infrastructure Monitoring Using Satellite Remote Sensing</span>.”</span> In <em>Materials and <span>Infrastructures</span> 1</em>. John Wiley &amp; Sons, Inc. <a href="https://doi.org/10.1002/9781119318583.ch14">https://doi.org/10.1002/9781119318583.ch14</a>.
+</div>
+<div id="ref-zotero-174" class="csl-entry" role="listitem">
+<span>“<span>SIR-C</span>/<span>X-SAR</span> Image <span>Kliuchevskoi Volcano</span> Comparison.”</span> n.d. Accessed March 15, 2024. <a href="https://www.geo.mtu.edu/volcanoes/klyuchevskoi/images/kliuch-compare.html">https://www.geo.mtu.edu/volcanoes/klyuchevskoi/images/kliuch-compare.html</a>.
+</div>
+<div id="ref-zotero-166" class="csl-entry" role="listitem">
+<span>“Synthetic <span>Aperture Radar</span>.”</span> n.d. Accessed March 15, 2024. <a href="https://www.surveyar.co.uk/fs08-radar-sar">https://www.surveyar.co.uk/fs08-radar-sar</a>.
+</div>
+<div id="ref-2020" class="csl-entry" role="listitem">
+<em>Synthetic <span>Aperture Radar</span> (<span>SAR</span>) <span>Techniques</span> and <span>Applications</span></em>. 2020. MDPI. <a href="https://doi.org/10.3390/books978-3-03936-123-6">https://doi.org/10.3390/books978-3-03936-123-6</a>.
+</div>
+<div id="ref-tay2020" class="csl-entry" role="listitem">
+Tay, Cheryl W. J., Sang-Ho Yun, Shi Tong Chin, Alok Bhardwaj, Jungkyo Jung, and Emma M. Hill. 2020. <span>“Rapid Flood and Damage Mapping Using Synthetic Aperture Radar in Response to <span>Typhoon Hagibis</span>, <span>Japan</span>.”</span> <em>Scientific Data</em> 7 (1): 100. <a href="https://doi.org/10.1038/s41597-020-0443-5">https://doi.org/10.1038/s41597-020-0443-5</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
