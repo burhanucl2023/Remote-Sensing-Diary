@@ -1,23 +1,19 @@
 # Welcome {.unnumbered}
 
-I am [Burhan](https://www.linkedin.com/in/burhanahmadwani/). Born and brought up in the beautiful valley of **Kashmir**.Yeah, we are famous for **Beautiful Valleys, Mesmerizing Lakes, Cashmere Shawls & Wazwan (our local cuisine)**. Take a glimpse of my hometown through this elaborate [Photo Gallery](https://stock.adobe.com/uk/search?k=kashmir) or the one short one below.
+I am [Burhan](https://www.linkedin.com/in/burhanahmadwani/). Born and brought up in the beautiful valley of **Kashmir**. Yeah, we are famous for **Beautiful Valleys, Mesmerizing Lakes, Cashmere Shawls & Wazwan (our local cuisine)**. Take a glimpse of my hometown through this elaborate [Photo Gallery](https://stock.adobe.com/uk/search?k=kashmir) or the short one below.
 
-::: {style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;"}
-<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF_CtcrJHY&#x2F;SZHOcrmoIsfeVIPSiVBQKg&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"> </iframe>
+::: {style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;  border-radius: 8px; will-change: transform;"}
+<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAF_CtcrJHY/SZHOcrmoIsfeVIPSiVBQKg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+
+</iframe>
 :::
 
 I am a Passionate Urban Spatial Enthusiast pursuing postgraduate studies at **University College London (UCL)**, blending expertise in Urban Spatial Sciences and Civil Engineering.I have held mid-level management positions in both government and the public sector, specializing in the strategic development of road networks for underserved areas in India. My mojo revolves around crafting the future of transportation design, playing with spatial analytics, rocking disaster management scenarios, championing net-zero strategies, and setting the stage for cool public policies. Committed to driving positive change, seeking collaboration with like-minded professionals to shape a more sustainable future for cities and regions.
 
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF_Vs3RbJs&#x2F;Smych8qcPNlHV9oJXdbkJA&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
+::: {style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;  border-radius: 8px; will-change: transform;"}
+<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAF_Vs3RbJs/Smych8qcPNlHV9oJXdbkJA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
 
-**Gratitude:**
-*As I was away from first five weeks, so had to catch up to a lot in a small amount of time. But, I would like to express my gratitude to the my department (in general) and Dr Andrew MacLachlan (in particular) for guiding me through this and I hope I have managed to produce a good learning diary and met the expectations of my peers.* 
+</iframe>
+:::
+
+**Gratitude:** *As I was away for the first five weeks, so had to catch up a lot in a small amount of time. But, I would like to express my gratitude to my department (in general) and Dr Andrew MacLachlan (in particular) for guiding me through this and I hope I have managed to produce a good learning diary and met the expectations of my peers.*
