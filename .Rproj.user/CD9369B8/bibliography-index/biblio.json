@@ -54,6 +54,34 @@
             "type": "book"
         },
         {
+            "URL": "https://eos.com/make-an-analysis/ndwi/",
+            "abstract": "NDWI index is used for water bodies detection and turbidity estimations. Learn more about the Normalized Difference Water Index.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        17
+                    ]
+                ]
+            },
+            "id": "2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        9,
+                        29
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "publisher": "NDWI Index",
+            "title": "NDWI: Index Formula, Value Range, And Uses In Agriculture",
+            "title-short": "NDWI",
+            "type": "webpage"
+        },
+        {
             "URL": "https://eos.com/blog/remote-sensing/",
             "abstract": "Remote sensing has various uses in fields like agriculture, forestry, and urban planning since it allows for fast data collection over large areas.",
             "accessed": {

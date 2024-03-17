@@ -48,26 +48,25 @@ Classification in remote sensing is the process of sorting pixels in images to l
 
 For this week, I explored the used of Classification and Regression Trees (CART) and Random forests (RF) using Google Earth Engine. Here are my results for both CART & RF Classification, after using the Sentinel-2 Data provided by GEE and applying it to Srinagar City. For, this exercise I identified three types of landcovers - water, urban and forest. Further, I filtered the data for the year 2020 and limited the satellite images with less than 20% cloud cover and then obtained a composite image by using the median function.
 
-- **CART Classification:**
+-   **CART Classification:**
 
 ![CART Classification of Srinagar City for the year 2020 - Work: Author's Own , Used: Sentinel-2 MSI: MultiSpectral Instrument, Level-1C @zotero-192](images/CART_Srinagar.png){width="100%" height="400"}
 
-- **RF Classification:**
+-   **RF Classification:**
 
 ![Random Forest Classification of Srinagar City for the year 2020 - Work: Author's Own , Used: Sentinel-2 MSI: MultiSpectral Instrument, Level-1C @zotero-192](images/RF_Srinagar.png){width="100%" height="400"}
 
-- **Difference between CART & RF**
+-   **Difference between CART & RF**
 
 After this to get a holistic view of the difference between the two, I obtained the difference layer and it could be seen in the difference image that Random Forest wrongly identified the central part of Dal Lake as Forest while as Classification and Regression Trees (CART) did a good job there as it identified it as water. In this "Black" denotes the similar classification by CART and RF while as "Yellow" denoted mismatch between the two.
 
 ![Difference CART vs RF Classification of Srinagar City for the year 2020 - Work: Author's Own , Used: Sentinel-2 MSI: MultiSpectral Instrument, Level-1C @zotero-192](images/diff_Srinagar.png){width="100%" height="400"}
 
-
 ## Reflections
 
 This week was a lot of important topics and it explored the intricacies of machine learning for informed decision-making, even if the technical details are difficult to grasp. I will be revising this lecture and will be using these techniques in Google Earth Engine in near future. While doing the Classification analysis, I was able to obatin an interesting thing. I compared the CART Classification of Srinagar City for the year 2015 and for the year 2020 and I was able to deduce the following:-
 
-- There have been massive campaigns in the city to protect the [Dal Lake](https://en.wikipedia.org/wiki/Dal_Lake) (also called the "Srinagar's Jewel" ) and it could be seen in the area designated as "A" in the image below that in 2015, a portion of the lake has been identified as a vegetation/forest by our model indicating pollution in the lake while the same patch is shown as water in 2020, so clearly indicating that the efforts by the state government to clean the lake have somewhat succeeded.
-- Also, it is also to be noted that in the area designated as "B" there has been lost of forest cover and increase in the urban cover, indicating the urban expansion of city from the north-west side.
+-   There have been massive campaigns in the city to protect the [Dal Lake](https://en.wikipedia.org/wiki/Dal_Lake) (also called the "Srinagar's Jewel" ) and it could be seen in the area designated as "A" in the image below that in 2015, a portion of the lake has been identified as a vegetation/forest by our model indicating pollution in the lake while the same patch is shown as water in 2020, so clearly indicating that the efforts by the state government to clean the lake have somewhat succeeded.
+-   Also, it is also to be noted that in the area designated as "B" there has been lost of forest cover and increase in the urban cover, indicating the urban expansion of city from the north-west side.
 
 ![Changes in landcover from 2015 to 2020 for Srinagar City - Work: Author's Own , Used: Sentinel-2 MSI: MultiSpectral Instrument, Level-1C @zotero-192](images/RF_Srinagar_2015_2020.png){width="100%" height="400"}
