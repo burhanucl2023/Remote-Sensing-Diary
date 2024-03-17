@@ -3,4 +3,12 @@ title: "Week 6 - Working on Group Presentation"
 author: "Burhan Ahmad Wani"
 ---
 
-I was assigned to the group at the very last moment & they had already decided on the topic "Jakarta - Sinking City". So, I gave my inputs and we started working on the draft presentation on "Windows Slides" initially and finally moved to Xaringan.
+I was assigned to the group at the very last moment & they had already decided on the topic "Jakarta - Sinking City". So, I gave my inputs and completed my part of the presentation and presented in the last week of Term-2. We first prepared the draft presentation on "Microsoft Slides" and then finally moved to Xaringan.
+
+```{r echo = FALSE, out.width='40%'}
+
+xaringanExtra::embed_xaringan(
+  url = "https://lamaals.github.io/CASA0023-Group-presentation-Jakarta/#1",
+  ratio = "4:3")
+
+```

@@ -49,7 +49,7 @@ Remote sensing data encompasses four key resolutions:
 
 Remote sensing data finds numerous applications across diverse fields. It is used in agriculture for optimizing uses of fertilizers, prediction of crop yields,measuring soil moisture content, monitoring droughts, assessment of crop health, etc.
 
-![A split view comparing NDVI index values on the same field taken 5 days apart. Such a tremendous decrease in NDVI may be the result of water or heat stress, which can be tracked in EOSDA Crop Monitoring., Source](images/agriculture.jpg){width="100%" height="100%"}
+![A split view comparing NDVI index values on the same field taken 5 days apart. Such a tremendous decrease in NDVI may be the result of water or heat stress, which can be tracked in EOSDA Crop Monitoring., Source @2023 ](images/agriculture.jpg){width="100%" height="100%"}
 
 Similarly, in forestry it can be used for monitoring forest cover, tracking deforestation & controlling forest fires.Also, remote sensing is being used for checking the rapid urbanization, planning road networks, pre and post disaster preparedness & in many more fields.
 

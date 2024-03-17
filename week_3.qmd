@@ -33,14 +33,12 @@ The study revealed that employing a higher degree of polynomial rectification al
 
 ![Average of RMS error of all test images at each order of polynomials, Source @hassan2006b](images/rms_week_3.png){width="100%" height="100%"}
 
-For the practical, I again used the Google Earth Engine to obtain NDWI map of Srinagar. The Normalized Difference Water Index (NDWI) is used to highlight open water features in a satellite image, allowing a water body to “stand out” against the soil and vegetation.The NDWI index was proposed by McFeeters in 1996. Its primary use today is to detect and monitor slight changes in water content of the water bodies. Taking advantage of the NIR (near-infrared) and GREEN (visible green) spectral bands, the NDWI is capable of enhancing the water bodies in a satellite image. The downside of the index is that it is sensitive to built structures, which can lead to overestimation of water bodies @2021 .The "white" colour denotes water and the rest of the region of the map is in "black". It is clearly visible that the famous "Dal Lake" and the Lifeline of Kashmir "The River Jhelum" is in white.
+For the practical, I again used the Google Earth Engine to obtain NDWI map of Srinagar. The Normalized Difference Water Index (NDWI) is used to highlight open water features in a satellite image, allowing a water body to “stand out” against the soil and vegetation.The NDWI index was proposed by McFeeters in 1996. Its primary use today is to detect and monitor slight changes in water content of the water bodies. Taking advantage of the NIR (near-infrared) and GREEN (visible green) spectral bands, the NDWI is capable of enhancing the water bodies in a satellite image. The downside of the index is that it is sensitive to built structures, which can lead to overestimation of water bodies @2021 .
+
+In the NDWI Map below, I used the Landsat 8  Data provided by GEE and applying it to Srinagar City. "white" colour denotes water and the rest of the region of the map is in "black". It is clearly visible that the famous "Dal Lake" and the Lifeline of Kashmir "The River Jhelum" is in white.
 
 ![Normalized Difference Water Index (NDWI) Map of Srinagar City for the year 2015 - Work: Author's Own , Used: Sentinel-2 MSI: MultiSpectral Instrument, Level-1C @zotero-192](images/NDWI_Srinagar.JPG){width="100%" height="100%"}
 
-
-
-
-
 ## Reflections
 
-As I joined the Term quite late, so had to catch up with all in a short amount of time. But, as the lectures and the practical notebooks were crafted perfectly, so I was able to grasp most of the concepts. Regarding, this week, I understand the importance of covering corrections, despite their initial complexity, to ensure data quality and facilitate comparison between different images. Exploring how remotely sensed images can be manipulated reveals deeper layers of information beyond the surface data. Although I didn't do the practical exercises this week, but I have gone through the code and have also checked the @ahmad as recommended & I found it valuable and I anticipate revisiting it in future.
+As I joined the Term quite late, so had to catch up with all in a short amount of time. But, as the lectures and the practical notebooks were crafted perfectly, so I was able to grasp most of the concepts. Regarding, this week, I understand the importance of covering corrections, despite their initial complexity, to ensure data quality and facilitate comparison between different images. Exploring how remotely sensed images can be manipulated reveals deeper layers of information beyond the surface data. Although I did the practical exercise but in Google Earth Engine and also explored @ahmad as recommended & I found it valuable and I anticipate revisiting it in future.
