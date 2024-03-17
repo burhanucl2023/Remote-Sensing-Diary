@@ -17,15 +17,23 @@ figure {
   margin: auto;
 }
 
+/* Positioning for the body */
+body {
+    position: relative; /* Set body position to relative */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
 /* Adjust the positioning of the image */
 #profile-pic {
-    position: absolute; /* Fixed positioning */
-    top: 25px; /* 10px from the top */
-    right: 405px; /* 10px from the right */
+    position: absolute; /* Absolute positioning */
+    top: 15px; /* 15px from the top */
+    right: 15px; /* 15px from the right */
     width: 65px; /* Adjust the width as needed */
-    height: 65px; /* Make height equal to width to make it a circle */
+    height: 65px; /* Set a fixed height to make it a circle */
     border-radius: 50%; /* Make the image circular */
     overflow: hidden; /* Hide any parts of the image outside the circle */
+    border: 1px solid black; /* Add a black border with 5px width */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add shadow effect */
     z-index: 9999; /* Ensure it appears above other elements */
 }
@@ -33,7 +41,7 @@ figure {
 /* Apply circular clipping to the image */
 #profile-pic img {
     width: 100%; /* Ensure the image fills the circle */
-    height: 100%; /* Ensure the image fills the circle */
+    height: auto; /* Allow the height to adjust automatically */
     object-fit: cover; /* Scale the image to cover the circle */
 }
 
@@ -42,4 +50,12 @@ figure {
     transform: scale(1.1); /* Scale the image on hover */
 }
 
-
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    #profile-pic {
+        top: 10px; /* Adjust positioning for smaller screens */
+        right: 10px; /* Adjust positioning for smaller screens */
+        width: 45px; /* Adjust the width for smaller screens */
+        height: 45px; /* Adjust the height for smaller screens */
+    }
+}
