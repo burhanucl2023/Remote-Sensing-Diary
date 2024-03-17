@@ -321,6 +321,52 @@
             "type": "webpage"
         },
         {
+            "DOI": "10.1080/19475705.2014.913695",
+            "ISSN": "1947-5705, 1947-5713",
+            "URL": "http://www.tandfonline.com/doi/full/10.1080/19475705.2014.913695",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        17
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Franci",
+                    "given": "Francesca"
+                },
+                {
+                    "family": "Mandanici",
+                    "given": "Emanuele"
+                },
+                {
+                    "family": "Bitelli",
+                    "given": "Gabriele"
+                }
+            ],
+            "container-title": "Geomatics, Natural Hazards and Risk",
+            "container-title-short": "Geomatics, Natural Hazards and Risk",
+            "id": "franci2015",
+            "issue": "5-7",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        7,
+                        4
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "583-599",
+            "title": "Remote sensing analysis for flood risk management in urban sprawl contexts",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
             "URL": "https://giphy.com/gifs/nasa-space-nasagif-3ohc0PkM8mVYfmBHz2",
             "abstract": "Explore the universe and discover our home planet through GIFs on the official NASA account",
             "accessed": {
@@ -663,6 +709,124 @@
             "title": "Object-based satellite image analysis applied for crop residue estimating using Landsat OLI imagery",
             "type": "article-journal",
             "volume": "39"
+        },
+        {
+            "DOI": "10.1016/j.jag.2014.09.005",
+            "ISSN": "1569-8432",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0303243414001998",
+            "abstract": "As countries become increasingly urbanized, understanding how urban areas are changing within the landscape becomes increasingly important. Urbanized areas are often the strongest indicators of human interaction with the environment, and understanding how urban areas develop through remotely sensed data allows for more sustainable practices. The Google Earth Engine (GEE) leverages cloud computing services to provide analysis capabilities on over 40 years of Landsat data. As a remote sensing platform, its ability to analyze global data rapidly lends itself to being an invaluable tool for studying the growth of urban areas. Here we present (i) An approach for the automated extraction of urban areas from Landsat imagery using GEE, validated using higher resolution images, (ii) a novel method of validation of the extracted urban extents using changes in the statistical performance of a high resolution population mapping method. Temporally distinct urban extractions were classified from the GEE catalog of Landsat 5 and 7 data over the Indonesian island of Java by using a Normalized Difference Spectral Vector (NDSV) method. Statistical evaluation of all of the tests was performed, and the value of population mapping methods in validating these urban extents was also examined. Results showed that the automated classification from GEE produced accurate urban extent maps, and that the integration of GEE-derived urban extents also improved the quality of the population mapping outputs.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        17
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Patel",
+                    "given": "Nirav N."
+                },
+                {
+                    "family": "Angiuli",
+                    "given": "Emanuele"
+                },
+                {
+                    "family": "Gamba",
+                    "given": "Paolo"
+                },
+                {
+                    "family": "Gaughan",
+                    "given": "Andrea"
+                },
+                {
+                    "family": "Lisini",
+                    "given": "Gianni"
+                },
+                {
+                    "family": "Stevens",
+                    "given": "Forrest R."
+                },
+                {
+                    "family": "Tatem",
+                    "given": "Andrew J."
+                },
+                {
+                    "family": "Trianni",
+                    "given": "Giovanna"
+                }
+            ],
+            "container-title": "International Journal of Applied Earth Observation and Geoinformation",
+            "container-title-short": "International Journal of Applied Earth Observation and Geoinformation",
+            "id": "patel2015",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        3,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Google Earth Engine,Landsat,Multitemporal,Population mapping,Settlement mapping,Spatial demography,Urbanization",
+            "page": "199-208",
+            "title": "Multitemporal settlement and population mapping from Landsat using Google Earth Engine",
+            "type": "article-journal",
+            "volume": "35"
+        },
+        {
+            "DOI": "10.1016/B978-0-12-820513-6.00010-2",
+            "ISBN": "978-0-12-820513-6",
+            "URL": "https://www.sciencedirect.com/science/article/pii/B9780128205136000102",
+            "abstract": "Landslide hazards in hilly areas are causing destructions to properties and lives all around the globe. Increasing population demands for the urbanization of mountainous areas which in turn escalates the risk associated with landslides. In India, the Himalayan belt is highly susceptible to landslides and contributes a major share of the total landslides across the world every year. Rainfall is identified as the major triggering factor of landslides in Indian Himalayas, and this chapter summarizes the case study conducted to establish an early warning system for Kalimpong town, in the Darjeeling Himalayas of India. Different approaches in defining rainfall thresholds were followed and real time field monitoring has been carried out using Micro Electro Mechanical (MEMS) tilt sensors and volumetric water content sensors. The study proves that the rainfall thresholds can be used as a first line action for issuing early warning to the public and its performance can be improved by using real time monitoring data.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        17
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Satyam",
+                    "given": "Neelima"
+                }
+            ],
+            "container-title": "Basics of Computational Geophysics",
+            "editor": [
+                {
+                    "family": "Samui",
+                    "given": "Pijush"
+                },
+                {
+                    "family": "Dixon",
+                    "given": "Barnali"
+                },
+                {
+                    "family": "Tien Bui",
+                    "given": "Dieu"
+                }
+            ],
+            "id": "satyam2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Kalimpong,Landslides,Monitoring,Rainfall,Thresholds",
+            "page": "165-188",
+            "publisher": "Elsevier",
+            "title": "Chapter 11 - Landslide prediction and field monitoring for Darjeeling Himalayas: A case study from Kalimpong",
+            "title-short": "Chapter 11 - Landslide prediction and field monitoring for Darjeeling Himalayas",
+            "type": "chapter"
         },
         {
             "DOI": "10.3390/rs11151779",
@@ -1066,6 +1230,37 @@
             "id": "zotero-176",
             "title": "Economic Feasibility Study for Pavement Monitoring Using Synthetic Aperture Radar-Based Satellite Remote Sensing: Cost–Benefit Analysis - Mingxin Li, Ardeshir Faghri, Abdulkadir Ozden, Yixiang Yue, 2017",
             "title-short": "Economic Feasibility Study for Pavement Monitoring Using Synthetic Aperture Radar-Based Satellite Remote Sensing",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://sdasrinagar.jk.gov.in/planning/MasterPlan",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        17
+                    ]
+                ]
+            },
+            "id": "zotero-188",
+            "publisher": "Srinagar Master Plan 2035",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://www.london.gov.uk/who-we-are/what-london-assembly-does/questions-mayor/find-an-answer/blue-plaques",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        17
+                    ]
+                ]
+            },
+            "id": "zotero-190",
+            "language": "en-US",
+            "title": "Blue plaques | London City Hall",
             "type": "webpage"
         }
     ],
