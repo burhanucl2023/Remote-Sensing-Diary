@@ -1262,6 +1262,23 @@
             "language": "en-US",
             "title": "Blue plaques | London City Hall",
             "type": "webpage"
+        },
+        {
+            "URL": "https://copernicus.eu/user-guides/sentinel-2-msi/processing-levels/level-1",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        17
+                    ]
+                ]
+            },
+            "id": "zotero-192",
+            "language": "en-US",
+            "publisher": "Sentinel Online",
+            "title": "User Guides - Sentinel-2 MSI - Level-1 Processing - Sentinel Online",
+            "type": "webpage"
         }
     ],
     "project_biblios": [

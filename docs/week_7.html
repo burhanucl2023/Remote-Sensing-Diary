@@ -21,7 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -259,12 +278,56 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="applications" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">7.2</span> Applications</h2>
+<p>For this week, I explored the used of Classification and Regression Trees (CART) and Random forests (RF) using Google Earth Engine. Here are my results for both CART &amp; RF Classification, after using the Sentinel-2 Data provided by GEE and applying it to Srinagar City. For, this exercise I identified three types of landcovers - water, urban and forest. Further, I filtered the data for the year 2020 and limited the satellite images with less than 20% cloud cover and then obtained a composite image by using the median function.</p>
+<ul>
+<li><strong>CART Classification:</strong></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/CART_Srinagar.png" style="width:100.0%" height="400" class="figure-img"></p>
+<figcaption class="figure-caption">CART Classification of Srinagar City for the year 2020 - Work: Author’s Own , Used: Sentinel-2 MSI: MultiSpectral Instrument, Level-1C <span class="citation" data-cites="zotero-192"><span>“User <span>Guides</span> - <span>Sentinel-2 MSI</span> - <span>Level-1 Processing</span> - <span>Sentinel Online</span>”</span> (<a href="references.html#ref-zotero-192" role="doc-biblioref">n.d.</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>RF Classification:</strong></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/RF_Srinagar.png" style="width:100.0%" height="400" class="figure-img"></p>
+<figcaption class="figure-caption">Random Forest Classification of Srinagar City for the year 2020 - Work: Author’s Own , Used: Sentinel-2 MSI: MultiSpectral Instrument, Level-1C <span class="citation" data-cites="zotero-192"><span>“User <span>Guides</span> - <span>Sentinel-2 MSI</span> - <span>Level-1 Processing</span> - <span>Sentinel Online</span>”</span> (<a href="references.html#ref-zotero-192" role="doc-biblioref">n.d.</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Difference between CART &amp; RF</strong></li>
+</ul>
+<p>After this to get a holistic view of the difference between the two, I obtained the difference layer and it could be seen in the difference image that Random Forest wrongly identified the central part of Dal Lake as Forest while as Classification and Regression Trees (CART) did a good job there as it identified it as water. In this “Black” denotes the similar classification by CART and RF while as “Yellow” denoted mismatch between the two.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/diff_Srinagar.png" style="width:100.0%" height="400" class="figure-img"></p>
+<figcaption class="figure-caption">Difference CART vs RF Classification of Srinagar City for the year 2020 - Work: Author’s Own , Used: Sentinel-2 MSI: MultiSpectral Instrument, Level-1C <span class="citation" data-cites="zotero-192"><span>“User <span>Guides</span> - <span>Sentinel-2 MSI</span> - <span>Level-1 Processing</span> - <span>Sentinel Online</span>”</span> (<a href="references.html#ref-zotero-192" role="doc-biblioref">n.d.</a>)</span></figcaption>
+</figure>
+</div>
 </section>
 <section id="reflections" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">7.3</span> Reflections</h2>
-<p>This week was a lot of important topics and it explored the intricacies of machine learning for informed decision-making, even if the technical details are difficult to grasp. I will be revising this lecture and will be using these techniques in Google Earth Engine in near future.</p>
+<p>This week was a lot of important topics and it explored the intricacies of machine learning for informed decision-making, even if the technical details are difficult to grasp. I will be revising this lecture and will be using these techniques in Google Earth Engine in near future. While doing the Classification analysis, I was able to obatin an interesting thing. I compared the CART Classification of Srinagar City for the year 2015 and for the year 2020 and I was able to deduce the following:-</p>
+<ul>
+<li>There have been massive campaigns in the city to protect the <a href="https://en.wikipedia.org/wiki/Dal_Lake">Dal Lake</a> (also called the “Srinagar’s Jewel” ) and it could be seen in the area designated as “A” in the image below that in 2015, a portion of the lake has been identified as a vegetation/forest by our model indicating pollution in the lake while the same patch is shown as water in 2020, so clearly indicating that the efforts by the state government to clean the lake have somewhat succeeded.</li>
+<li>Also, it is also to be noted that in the area designated as “B” there has been lost of forest cover and increase in the urban cover, indicating the urban expansion of city from the north-west side.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/RF_Srinagar_2015_2020.png" style="width:100.0%" height="400" class="figure-img"></p>
+<figcaption class="figure-caption">Changes in landcover from 2015 to 2020 for Srinagar City - Work: Author’s Own , Used: Sentinel-2 MSI: MultiSpectral Instrument, Level-1C <span class="citation" data-cites="zotero-192"><span>“User <span>Guides</span> - <span>Sentinel-2 MSI</span> - <span>Level-1 Processing</span> - <span>Sentinel Online</span>”</span> (<a href="references.html#ref-zotero-192" role="doc-biblioref">n.d.</a>)</span></figcaption>
+</figure>
+</div>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-zotero-192" class="csl-entry" role="listitem">
+<span>“User <span>Guides</span> - <span>Sentinel-2 MSI</span> - <span>Level-1 Processing</span> - <span>Sentinel Online</span>.”</span> n.d. Sentinel Online. Accessed March 17, 2024. <a href="https://copernicus.eu/user-guides/sentinel-2-msi/processing-levels/level-1">https://copernicus.eu/user-guides/sentinel-2-msi/processing-levels/level-1</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
