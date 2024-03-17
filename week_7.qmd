@@ -2,6 +2,7 @@
 title: "Week 7 - Classification I"
 author: "Burhan Ahmad Wani"
 ---
+[![](general_images/burhan.jpg){#profile-pic}](https://www.linkedin.com/in/burhanahmadwani/)
 
 ## Summary
 

@@ -16,3 +16,30 @@ figure {
   text-align: center;
   margin: auto;
 }
+
+/* Adjust the positioning of the image */
+#profile-pic {
+    position: absolute; /* Fixed positioning */
+    top: 25px; /* 10px from the top */
+    right: 405px; /* 10px from the right */
+    width: 65px; /* Adjust the width as needed */
+    height: 65px; /* Make height equal to width to make it a circle */
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Hide any parts of the image outside the circle */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+    z-index: 9999; /* Ensure it appears above other elements */
+}
+
+/* Apply circular clipping to the image */
+#profile-pic img {
+    width: 100%; /* Ensure the image fills the circle */
+    height: 100%; /* Ensure the image fills the circle */
+    object-fit: cover; /* Scale the image to cover the circle */
+}
+
+/* Optional: Add hover effect to the image */
+#profile-pic:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+}
+
+

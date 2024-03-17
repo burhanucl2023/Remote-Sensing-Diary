@@ -2,6 +2,7 @@
 title: "Week 9 - SAR"
 author: "Burhan Ahmad Wani"
 ---
+[![](general_images/burhan.jpg){#profile-pic}](https://www.linkedin.com/in/burhanahmadwani/)
 
 ## Summary
 

@@ -2,6 +2,7 @@
 title: "Week 2 - Sensor Presentation"
 author: "Burhan Ahmad Wani"
 ---
+[![](general_images/burhan.jpg){#profile-pic}](https://www.linkedin.com/in/burhanahmadwani/)
 
 ```{r echo = FALSE, out.width='40%'}
 
