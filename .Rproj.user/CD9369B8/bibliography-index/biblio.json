@@ -477,6 +477,28 @@
             "volume": "202"
         },
         {
+            "URL": "https://sdasrinagar.jk.gov.in/planning/MasterPlan",
+            "abstract": "Srinagar Master Plan 2035",
+            "author": [
+                {
+                    "literal": "Govt of J&K"
+                }
+            ],
+            "genre": "Srinagar Master Plan 2035",
+            "id": "govtofj&k2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "publisher": "Srinagar Master Plan 2035",
+            "title": "Srinagar Master Plan 2035",
+            "title-short": "Srinagar Master Plan 2035",
+            "type": "webpage"
+        },
+        {
             "DOI": "10.21608/iceeng.2006.33672",
             "ISSN": "2636-4441",
             "URL": "http://iceeng.journals.ekb.eg/article_33672.html",
@@ -1258,21 +1280,6 @@
             "id": "zotero-176",
             "title": "Economic Feasibility Study for Pavement Monitoring Using Synthetic Aperture Radar-Based Satellite Remote Sensing: Cost–Benefit Analysis - Mingxin Li, Ardeshir Faghri, Abdulkadir Ozden, Yixiang Yue, 2017",
             "title-short": "Economic Feasibility Study for Pavement Monitoring Using Synthetic Aperture Radar-Based Satellite Remote Sensing",
-            "type": "webpage"
-        },
-        {
-            "URL": "https://sdasrinagar.jk.gov.in/planning/MasterPlan",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2024,
-                        3,
-                        17
-                    ]
-                ]
-            },
-            "id": "zotero-188",
-            "publisher": "Srinagar Master Plan 2035",
             "type": "webpage"
         },
         {
