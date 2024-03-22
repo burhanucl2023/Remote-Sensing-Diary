@@ -59,6 +59,8 @@ Similarly, in forestry it can be used for monitoring forest cover, tracking defo
 
 Also, during my research regarding the use of remote sensing, I came across one of the works which discussed the application of remote sensing in route planning for road projects in challenging terrain (@matin2012). This study delved into the effectiveness of remote sensing and Geographic Information Systems (GIS) in mapping road infrastructure in rugged landscapes. Various factors influencing road network construction and the resolution of associated challenges were examined within a specific context.Another, interesting use case scenario of remote sensing that came across during my reading was, early warning landslide system used by @satyam2021 . The risk due to landslides is a major concern in hilly terrains across the world, especially in the changing climate and rapid urbanization. All these examples together demonstrate how valuable remote sensing technology is across a wide range of fields.
 
+### Hands-On Experience
+
 Because, I joined the course quite late, so I moved directly to using Google Earth Engine. Here is my work of loading the Sentinel-2 Data and then clipping it for Srinagar City.
 
 ![Srinagar City - Work: Author's Own , Used: Sentinel-2 MSI: MultiSpectral Instrument, Level-1C @zotero-192](images/Sentinel_Srinagar.png){width="100%" height="100%"}
