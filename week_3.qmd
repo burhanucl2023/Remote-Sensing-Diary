@@ -35,6 +35,8 @@ The study revealed that employing a higher degree of polynomial rectification al
 
 ![Average of RMS error of all test images at each order of polynomials, Source @hassan2006b](images/rms_week_3.png){width="100%" height="100%"}
 
+Another, study that I came across during my reading, was by @wang2004 . The study demonstrated strong relations between NDVI and ground-based measurements of productivity for forest trees in the central Great Plains, indicating that NDVI is an excellent predictor of annual tree productivity and because of this study I am exploring to predict crop yield for one of my other projects.
+
 ### Hands-On Experience
 
 For the practical, I again used the Google Earth Engine to obtain NDWI map of Srinagar. The Normalized Difference Water Index (NDWI) is used to highlight open water features in a satellite image, allowing a water body to "stand out" against the soil and vegetation.The NDWI index was proposed by McFeeters in 1996. Its primary use today is to detect and monitor slight changes in water content of the water bodies. Taking advantage of the NIR (near-infrared) and GREEN (visible green) spectral bands, the NDWI is capable of enhancing the water bodies in a satellite image. The downside of the index is that it is sensitive to built structures, which can lead to overestimation of water bodies @2021 .

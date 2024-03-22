@@ -1094,6 +1094,56 @@
             "volume": "540"
         },
         {
+            "DOI": "10.1080/0143116032000160499",
+            "ISSN": "0143-1161",
+            "URL": "https://doi.org/10.1080/0143116032000160499",
+            "abstract": "Remotely sensed Normalized Difference Vegetation Index (NDVI) is a good measure of photosynthetic activity at landscape scales, and can be used to estimate productivity. Our research demonstrates strong relations between NDVI and ground-based measurements of productivity for forest trees in the central Great Plains. Standardized tree ring width, diameter increase and seed production all are strongly correlated with integrated NDVI of the same growing season. Tree height growth for a given year corresponds with integrated NDVI of the previous year, i.e. a one-year lag. Variation in foliage production, as measured by litterfall, generally corresponds with variation in NDVI, but not as distinctly as do other tree productivity measures. Although foliage production is best correlated with NDVI integrated over the entire growing season, most tree productivity measurements are best correlated with NDVI integrated over the early growing season. All tree productivity measures, except foliage production, are better related to NDVI averaged over an intermediate spatial scale (7×7 pixels, ∼50 km2), rather than just local NDVI (1 pixel, 1.2 km2). Overall, NDVI is an excellent predictor of annual tree productivity.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        22
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Wang",
+                    "given": "J."
+                },
+                {
+                    "family": "Rich",
+                    "given": "P. M."
+                },
+                {
+                    "family": "Price",
+                    "given": "K. P."
+                },
+                {
+                    "family": "Kettle",
+                    "given": "W. D."
+                }
+            ],
+            "container-title": "International Journal of Remote Sensing",
+            "id": "wang2004",
+            "issue": "16",
+            "issued": {
+                "date-parts": [
+                    [
+                        2004,
+                        8,
+                        1
+                    ]
+                ]
+            },
+            "page": "3127-3138",
+            "publisher": "Taylor & Francis",
+            "title": "Relations between NDVI and tree productivity in the central Great Plains",
+            "type": "article-journal",
+            "volume": "25"
+        },
+        {
             "DOI": "10.1016/j.jag.2007.05.002",
             "ISSN": "1569-8432",
             "URL": "https://www.sciencedirect.com/science/article/pii/S0303243407000384",
