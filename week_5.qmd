@@ -30,6 +30,12 @@ There have been so advancment in remote sensing research and ease of doing resea
 
 ![GEE the bridge that connects, Source - Author](images/GEE.png){width="100%" height="100%"}
 
+### Hands-On Experience
+
+Throughout this learning diary, I've consistently relied on GEE, a tool that has been central in my exploration both in the past and the forthcoming weeks. Below, I've included a snippet showcasing the works I've undertaken using GEE, providing insight into my hands-on experience with the platform.
+
+![GEE projects that I worked on during this module, Source - Author](images/GEE_Work.png){width="100%" height="100%"}
+
 ## Reflections
 
 GEE presents an intriguing tool for analysis, showcasing the impressive strides in technology and data analysis. Its ability to swiftly process vast amounts of data quickly as compared to tools like SNAP and R, make it exceptionally useful and futuristic. The versatility of GEE is evident in its extensive data access and diverse range of applications, spanning from straightforward to intricate processing tasks. I firmly believe that GEE and cloud computing will revolutionize remote sensing research. Despite my prior experience in Python and R, exploring a new coding language like JavaScript piques my interest, prompting me to consider further learning opportunities.But, again, this entire course of MSc Urban Spatial Science has been an opportunity to go to uncharted territories and moving away from your comfort zone. And despite the demanding nature of the course, this exploration has been immensely enriching, largely thanks to the outstanding faculty at CASA, whom I consider are among the finest at Bartlett.
