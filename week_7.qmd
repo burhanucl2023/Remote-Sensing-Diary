@@ -2,6 +2,7 @@
 title: "Week 7 - Classification I"
 author: "Burhan Ahmad Wani"
 ---
+
 [![](general_images/burhan.jpg){#profile-pic}](https://www.linkedin.com/in/burhanahmadwani/)
 
 ## Summary
@@ -46,6 +47,14 @@ Classification in remote sensing is the process of sorting pixels in images to l
 -   May not perform well with very small datasets due to the risk of overfitting and limited diversity among trees.
 
 ## Applications
+
+During my reading this week, I came across the study by @wahap2020. The study evaluated GEE's feasibility as a free cloud-based platform for classifying land cover in the Klang Valley area across different years using multiple Machine Learning Algorithms (MLA), including CART. Although, each classification results were of high accuracy but CART shows the best accuracy with 94.71%, 97.72% and 96.57% for different years in comparison with RF and SVM. It is also interesting, that I found a similar trend when I explored CART and RF for my city.
+
+Another, study by @clemente2020a explored, the use of GEE to assess crop areas, specially for the identification of crop types via different classification algorithms such as Minimum Distance (MD), Random Forest (RF), Support Vector Machine (SVM), Classification and Regression Trees (CART) on an agricultural area in Tuscany (Italy). The different scenarios used by the researchers is shown in the figure below and they found out the best output was obtained by combining RF and SVM.
+
+![Different scenarios implemented in GEE @clemente2020a](images/Italy_gee.jpg){width="100%" height="700%"}
+
+### Hands-On Experience
 
 For this week, I explored the used of Classification and Regression Trees (CART) and Random forests (RF) using Google Earth Engine. Here are my results for both CART & RF Classification, after using the Sentinel-2 Data provided by GEE and applying it to Srinagar City. For, this exercise I identified three types of landcovers - water, urban and forest. Further, I filtered the data for the year 2020 and limited the satellite images with less than 20% cloud cover and then obtained a composite image by using the median function.
 

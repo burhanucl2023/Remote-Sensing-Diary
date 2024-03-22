@@ -201,7 +201,10 @@ div.csl-indent {
   <li><a href="#classification-and-regression-trees-cart" id="toc-classification-and-regression-trees-cart" class="nav-link" data-scroll-target="#classification-and-regression-trees-cart"><span class="header-section-number">7.1.1</span> Classification and Regression Trees (CART)?</a></li>
   <li><a href="#random-forest" id="toc-random-forest" class="nav-link" data-scroll-target="#random-forest"><span class="header-section-number">7.1.2</span> Random Forest?</a></li>
   </ul></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">7.2</span> Applications</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">7.2</span> Applications</a>
+  <ul class="collapse">
+  <li><a href="#hands-on-experience" id="toc-hands-on-experience" class="nav-link" data-scroll-target="#hands-on-experience"><span class="header-section-number">7.2.1</span> Hands-On Experience</a></li>
+  </ul></li>
   <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">7.3</span> Reflections</a></li>
   </ul>
 </nav>
@@ -281,6 +284,16 @@ div.csl-indent {
 </section>
 <section id="applications" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">7.2</span> Applications</h2>
+<p>During my reading this week, I came across the study by <span class="citation" data-cites="wahap2020">Wahap and Shafri (<a href="references.html#ref-wahap2020" role="doc-biblioref">2020</a>)</span>. The study evaluated GEE’s feasibility as a free cloud-based platform for classifying land cover in the Klang Valley area across different years using multiple Machine Learning Algorithms (MLA), including CART. Although, each classification results were of high accuracy but CART shows the best accuracy with 94.71%, 97.72% and 96.57% for different years in comparison with RF and SVM. It is also interesting, that I found a similar trend when I explored CART and RF for my city.</p>
+<p>Another, study by <span class="citation" data-cites="clemente2020a">Clemente et al. (<a href="references.html#ref-clemente2020a" role="doc-biblioref">2020</a>)</span> explored, the use of GEE to assess crop areas, specially for the identification of crop types via different classification algorithms such as Minimum Distance (MD), Random Forest (RF), Support Vector Machine (SVM), Classification and Regression Trees (CART) on an agricultural area in Tuscany (Italy). The different scenarios used by the researchers is shown in the figure below and they found out the best output was obtained by combining RF and SVM.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Italy_gee.jpg" style="width:100.0%;height:700.0%" class="figure-img"></p>
+<figcaption class="figure-caption">Different scenarios implemented in GEE <span class="citation" data-cites="clemente2020a">Clemente et al. (<a href="references.html#ref-clemente2020a" role="doc-biblioref">2020</a>)</span></figcaption>
+</figure>
+</div>
+<section id="hands-on-experience" class="level3" data-number="7.2.1">
+<h3 data-number="7.2.1" class="anchored" data-anchor-id="hands-on-experience"><span class="header-section-number">7.2.1</span> Hands-On Experience</h3>
 <p>For this week, I explored the used of Classification and Regression Trees (CART) and Random forests (RF) using Google Earth Engine. Here are my results for both CART &amp; RF Classification, after using the Sentinel-2 Data provided by GEE and applying it to Srinagar City. For, this exercise I identified three types of landcovers - water, urban and forest. Further, I filtered the data for the year 2020 and limited the satellite images with less than 20% cloud cover and then obtained a composite image by using the median function.</p>
 <ul>
 <li><strong>CART Classification:</strong></li>
@@ -311,6 +324,7 @@ div.csl-indent {
 </figure>
 </div>
 </section>
+</section>
 <section id="reflections" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">7.3</span> Reflections</h2>
 <p>This week was a lot of important topics and it explored the intricacies of machine learning for informed decision-making, even if the technical details are difficult to grasp. I will be revising this lecture and will be using these techniques in Google Earth Engine in near future. While doing the Classification analysis, I was able to obtain an interesting thing. I compared the CART Classification of Srinagar City for the year 2015 and for the year 2020 and I was able to deduce the following:-</p>
@@ -327,8 +341,14 @@ div.csl-indent {
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-clemente2020a" class="csl-entry" role="listitem">
+Clemente, J. P., G. Fontanelli, G. G. Ovando, Y. L. B. Roa, A. Lapini, and E. Santi. 2020. <span>“Google <span>Earth Engine</span>: <span>Application</span> of <span>Algorithms</span> for <span>Remote Sensing</span> of <span>Crops</span> in <span>Tuscany</span> (Italy).”</span> In <em>The <span>International Archives</span> of <span>Photogrammetry</span>, <span>Remote Sensing</span> and <span>Spatial Information Sciences</span></em>, XLII-3/W12-2020:291–96. Gottingen, Germany: Copernicus GmbH. <a href="https://doi.org/10.5194/isprs-archives-XLII-3-W12-2020-291-2020">https://doi.org/10.5194/isprs-archives-XLII-3-W12-2020-291-2020</a>.
+</div>
 <div id="ref-zotero-192" class="csl-entry" role="listitem">
 <span>“User <span>Guides</span> - <span>Sentinel-2 MSI</span> - <span>Level-1 Processing</span> - <span>Sentinel Online</span>.”</span> n.d. Sentinel Online. Accessed March 17, 2024. <a href="https://copernicus.eu/user-guides/sentinel-2-msi/processing-levels/level-1">https://copernicus.eu/user-guides/sentinel-2-msi/processing-levels/level-1</a>.
+</div>
+<div id="ref-wahap2020" class="csl-entry" role="listitem">
+Wahap, N. A., and Helmi ZM Shafri. 2020. <span>“Utilization of <span>Google Earth Engine</span> (<span>GEE</span>) for Land Cover Monitoring over <span>Klang Valley</span>, <span>Malaysia</span>.”</span> <em>IOP Conference Series. Earth and Environmental Science</em> 540 (1). <a href="https://doi.org/10.1088/1755-1315/540/1/012003">https://doi.org/10.1088/1755-1315/540/1/012003</a>.
 </div>
 </div>
 </section>

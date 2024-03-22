@@ -2,9 +2,10 @@
 title: "Week 6 - Working on Group Presentation"
 author: "Burhan Ahmad Wani"
 ---
+
 [![](general_images/burhan.jpg){#profile-pic}](https://www.linkedin.com/in/burhanahmadwani/)
 
-I was assigned to the group at the very last moment & they had already decided on the topic "Jakarta - Sinking City". So, I gave my inputs and completed my part of the presentation and presented in the last week of Term-2. We first prepared the draft presentation on "Microsoft Slides" and then finally moved to Xaringan.
+I was assigned to the group at the very last moment & the topic  was "Jakarta - Sinking City". So, I gave my inputs and completed my part of the presentation and presented in the last week of Term-2. We first prepared the draft presentation on "Microsoft Slides" and then finally moved to Xaringan.
 
 ```{r echo = FALSE, out.width='40%'}
 

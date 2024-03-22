@@ -161,6 +161,66 @@
             "type": "chapter"
         },
         {
+            "DOI": "10.5194/isprs-archives-XLII-3-W12-2020-291-2020",
+            "ISSN": "16821750",
+            "URL": "https://www.proquest.com/docview/2458321226/abstract/50B1423E92E64485PQ/1",
+            "abstract": "Remote sensing has become an important mean to assess crop areas, specially for the identification of crop types. Google Earth Engine (GEE) is a free platform that provides a large number of satellite images from different constellations. Moreover, GEE provides pixel-based classifiers, which are used for mapping agricultural areas. The objective of this work is to evaluate the performance of different classification algorithms such as Minimum Distance (MD), Random Forest (RF), Support Vector Machine (SVM), Classification and Regression Trees (CART) and Na¨ıve Bayes (NB) on an agricultural area in Tuscany (Italy). Four different scenarios were implemented in GEE combining different information such as optical and Synthetic Aperture Radar (SAR) data, indices and time series. Among the five classifiers used the best performers were RF and SVM. Integrating Sentinel-1 (S1) and Sentinel-2 (S2) slightly improves the classification in comparison to the only S2 image classifications. The use of time series substantially improves supervised classifications. The analysis carried out so far lays the foundation for the integration of time series of SAR and optical data.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        22
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Clemente",
+                    "given": "J. P."
+                },
+                {
+                    "family": "Fontanelli",
+                    "given": "G."
+                },
+                {
+                    "family": "Ovando",
+                    "given": "G. G."
+                },
+                {
+                    "family": "Roa",
+                    "given": "Y. L. B."
+                },
+                {
+                    "family": "Lapini",
+                    "given": "A."
+                },
+                {
+                    "family": "Santi",
+                    "given": "E."
+                }
+            ],
+            "container-title": "The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences",
+            "id": "clemente2020a",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "keyword": "Algorithms,Classification,Classifiers,Crop identification,Crops,Geography,Image classification,Regression analysis,Remote sensing,SAR (radar),Satellite constellations,Satellite imagery,Satellites,Spaceborne remote sensing,Support vector machines,Synthetic aperture radar,Time series",
+            "language": "en-US",
+            "number-of-pages": "291-296",
+            "page": "291-296",
+            "publisher": "Copernicus GmbH",
+            "publisher-place": "Gottingen, Germany",
+            "title": "Google Earth Engine: Application of Algorithms for Remote Sensing of Crops in Tuscany (italy)",
+            "title-short": "Google Earth Engine",
+            "type": "paper-conference",
+            "volume": "XLII-3/W12-2020"
+        },
+        {
             "DOI": "10.1007/978-981-19-0976-4_36",
             "ISBN": "978-981-19097-6-4",
             "abstract": "Satellite images are useful in various domain areas. In satellite images resolution is the major challenging issue because of huge distance, atmospheric changes, clouds, different air devices (drones, aeroplanes). Image enhancement is a technique of image processing for better image visualization, noise removing, other air facts. Image enhancement is applied after image acquisition using different sensors. In this paper, an introduction about satellite image acquisition, image enhancement techniques, survey of different techniques of satellite image enhancement is discussed with their advantages and disadvantages.",
@@ -989,6 +1049,49 @@
             "title": "Rapid flood and damage mapping using synthetic aperture radar in response to Typhoon Hagibis, Japan",
             "type": "article-journal",
             "volume": "7"
+        },
+        {
+            "DOI": "10.1088/1755-1315/540/1/012003",
+            "ISSN": "17551307",
+            "URL": "https://www.proquest.com/docview/2556120614/abstract/32848F320F1B4588PQ/1",
+            "abstract": "Geospatial Big Data is currently received overwhelming attention and are on highlight globally and Google Earth Engine (GEE) is currently the hot pot platform to cater big data processing for Remote Sensing and GIS. Currently few or no study regarding the usage of this platform to study land use/cover changes over years in Malaysia. The objective is to evaluate the feasibility of GEE as a free cloud-based platform by performing classification of Klang Valley area from Landsat composites of three different years (1988-2003-2018) using multiple Machine Learning Algorithms (MLA). The best classification results were then imported and further processed to quantify the changes over the years using commercial software. Although, the classification results are of high accuracy but CART shows the best accuracy with 94.71%, 97.72% and 96.57% in 1988, 2003 and 2018 in comparison with RF and SVM. Some misclassified pixels were encountered because the annual composited images were compiled without taken into considerations of crops phenological stages (paddy) which resulted to the misclassified agricultural land into urban and bare land. Hence, the selection and composition of data initially had to be structured and strategized prior to processing as they can affect the classification result and further analysis. Regardless, GEE has performed quite well and fast in term of time and processing complexity of multiple datasets with minimal human interaction and intervention. Generally, GEE has proven to be reliable in fulfilling the objectives of this study to evaluate the GEE feasibility by performing classification and quantifying the land use/cover of studied area and provide good base for further analysis using different platform.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        22
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Wahap",
+                    "given": "N. A."
+                },
+                {
+                    "family": "Shafri",
+                    "given": "Helmi ZM"
+                }
+            ],
+            "container-title": "IOP Conference Series. Earth and Environmental Science",
+            "id": "wahap2020",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        7
+                    ]
+                ]
+            },
+            "keyword": "Cover,Google Earth,Klang Valley,Land,Land cover,Land use",
+            "language": "en-US",
+            "publisher": "IOP Publishing",
+            "publisher-place": "Bristol, United Kingdom",
+            "title": "Utilization of Google Earth Engine (GEE) for land cover monitoring over Klang Valley, Malaysia",
+            "type": "article-journal",
+            "volume": "540"
         },
         {
             "DOI": "10.1016/j.jag.2007.05.002",
